@@ -1,0 +1,1785 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TestRecord xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Results>
+    <UnitTestResult>
+      <TestDate>2015-11-09T14:55:36</TestDate>
+      <Passed>0</Passed>
+      <Errors>3</Errors>
+      <Failures>0</Failures>
+      <Inconclusive>0</Inconclusive>
+      <NotRunnable>0</NotRunnable>
+      <Skipped>0</Skipped>
+      <Ignored>0</Ignored>
+      <Time />
+      <Message>One or more child tests had errors</Message>
+    </UnitTestResult>
+    <UnitTestResult>
+      <TestDate>2015-11-09T14:59:49</TestDate>
+      <Passed>1</Passed>
+      <Errors>2</Errors>
+      <Failures>0</Failures>
+      <Inconclusive>0</Inconclusive>
+      <NotRunnable>0</NotRunnable>
+      <Skipped>0</Skipped>
+      <Ignored>0</Ignored>
+      <Time />
+      <Message>One or more child tests had errors</Message>
+    </UnitTestResult>
+    <UnitTestResult>
+      <TestDate>2015-11-09T15:00:35</TestDate>
+      <Passed>2</Passed>
+      <Errors>1</Errors>
+      <Failures>0</Failures>
+      <Inconclusive>0</Inconclusive>
+      <NotRunnable>0</NotRunnable>
+      <Skipped>0</Skipped>
+      <Ignored>0</Ignored>
+      <Time />
+      <Message>One or more child tests had errors</Message>
+    </UnitTestResult>
+    <UnitTestResult>
+      <TestDate>2015-11-09T15:01:30</TestDate>
+      <Passed>2</Passed>
+      <Errors>0</Errors>
+      <Failures>0</Failures>
+      <Inconclusive>0</Inconclusive>
+      <NotRunnable>0</NotRunnable>
+      <Skipped>0</Skipped>
+      <Ignored>0</Ignored>
+      <Time />
+      <Message>Test successful
+
+Execution time: 3.58ms</Message>
+    </UnitTestResult>
+    <UnitTestResult>
+      <TestDate>2015-11-09T15:02:11</TestDate>
+      <Passed>2</Passed>
+      <Errors>0</Errors>
+      <Failures>0</Failures>
+      <Inconclusive>0</Inconclusive>
+      <NotRunnable>0</NotRunnable>
+      <Skipped>0</Skipped>
+      <Ignored>0</Ignored>
+      <Time />
+      <Message>Test successful
+
+Execution time: 3.58ms</Message>
+    </UnitTestResult>
+    <UnitTestResult>
+      <TestDate>2015-11-09T15:16:13</TestDate>
+      <Passed>2</Passed>
+      <Errors>0</Errors>
+      <Failures>0</Failures>
+      <Inconclusive>0</Inconclusive>
+      <NotRunnable>0</NotRunnable>
+      <Skipped>0</Skipped>
+      <Ignored>0</Ignored>
+      <Time />
+      <Message>Test successful
+
+Execution time: 0.45ms</Message>
+    </UnitTestResult>
+    <UnitTestResult>
+      <TestDate>2015-11-09T15:18:52</TestDate>
+      <Passed>2</Passed>
+      <Errors>0</Errors>
+      <Failures>0</Failures>
+      <Inconclusive>0</Inconclusive>
+      <NotRunnable>0</NotRunnable>
+      <Skipped>0</Skipped>
+      <Ignored>0</Ignored>
+      <Time />
+      <Message>Test successful
+
+Execution time: 0.44ms</Message>
+    </UnitTestResult>
+    <UnitTestResult>
+      <TestDate>2015-11-09T15:21:33</TestDate>
+      <Passed>2</Passed>
+      <Errors>0</Errors>
+      <Failures>0</Failures>
+      <Inconclusive>0</Inconclusive>
+      <NotRunnable>0</NotRunnable>
+      <Skipped>0</Skipped>
+      <Ignored>0</Ignored>
+      <Time />
+      <Message>Test successful
+
+Execution time: 0.45ms</Message>
+    </UnitTestResult>
+  </Results>
+  <Tests>
+    <TestRecord Name="co">
+      <Results>
+        <UnitTestResult>
+          <TestDate>2015-11-09T14:55:36</TestDate>
+          <Passed>0</Passed>
+          <Errors>3</Errors>
+          <Failures>0</Failures>
+          <Inconclusive>0</Inconclusive>
+          <NotRunnable>0</NotRunnable>
+          <Skipped>0</Skipped>
+          <Ignored>0</Ignored>
+          <Time />
+          <Message>One or more child tests had errors</Message>
+        </UnitTestResult>
+        <UnitTestResult>
+          <TestDate>2015-11-09T14:59:49</TestDate>
+          <Passed>1</Passed>
+          <Errors>2</Errors>
+          <Failures>0</Failures>
+          <Inconclusive>0</Inconclusive>
+          <NotRunnable>0</NotRunnable>
+          <Skipped>0</Skipped>
+          <Ignored>0</Ignored>
+          <Time />
+          <Message>One or more child tests had errors</Message>
+        </UnitTestResult>
+        <UnitTestResult>
+          <TestDate>2015-11-09T15:00:35</TestDate>
+          <Passed>2</Passed>
+          <Errors>1</Errors>
+          <Failures>0</Failures>
+          <Inconclusive>0</Inconclusive>
+          <NotRunnable>0</NotRunnable>
+          <Skipped>0</Skipped>
+          <Ignored>0</Ignored>
+          <Time />
+          <Message>One or more child tests had errors</Message>
+        </UnitTestResult>
+        <UnitTestResult>
+          <TestDate>2015-11-09T15:01:30</TestDate>
+          <Passed>2</Passed>
+          <Errors>0</Errors>
+          <Failures>0</Failures>
+          <Inconclusive>0</Inconclusive>
+          <NotRunnable>0</NotRunnable>
+          <Skipped>0</Skipped>
+          <Ignored>0</Ignored>
+          <Time />
+          <Message>Test successful
+
+Execution time: 3.56ms</Message>
+        </UnitTestResult>
+        <UnitTestResult>
+          <TestDate>2015-11-09T15:02:11</TestDate>
+          <Passed>2</Passed>
+          <Errors>0</Errors>
+          <Failures>0</Failures>
+          <Inconclusive>0</Inconclusive>
+          <NotRunnable>0</NotRunnable>
+          <Skipped>0</Skipped>
+          <Ignored>0</Ignored>
+          <Time />
+          <Message>Test successful
+
+Execution time: 3.57ms</Message>
+        </UnitTestResult>
+        <UnitTestResult>
+          <TestDate>2015-11-09T15:16:13</TestDate>
+          <Passed>2</Passed>
+          <Errors>0</Errors>
+          <Failures>0</Failures>
+          <Inconclusive>0</Inconclusive>
+          <NotRunnable>0</NotRunnable>
+          <Skipped>0</Skipped>
+          <Ignored>0</Ignored>
+          <Time />
+          <Message>Test successful
+
+Execution time: 0.43ms</Message>
+        </UnitTestResult>
+        <UnitTestResult>
+          <TestDate>2015-11-09T15:18:52</TestDate>
+          <Passed>2</Passed>
+          <Errors>0</Errors>
+          <Failures>0</Failures>
+          <Inconclusive>0</Inconclusive>
+          <NotRunnable>0</NotRunnable>
+          <Skipped>0</Skipped>
+          <Ignored>0</Ignored>
+          <Time />
+          <Message>Test successful
+
+Execution time: 0.43ms</Message>
+        </UnitTestResult>
+        <UnitTestResult>
+          <TestDate>2015-11-09T15:21:33</TestDate>
+          <Passed>2</Passed>
+          <Errors>0</Errors>
+          <Failures>0</Failures>
+          <Inconclusive>0</Inconclusive>
+          <NotRunnable>0</NotRunnable>
+          <Skipped>0</Skipped>
+          <Ignored>0</Ignored>
+          <Time />
+          <Message>Test successful
+
+Execution time: 0.43ms</Message>
+        </UnitTestResult>
+      </Results>
+      <Tests>
+        <TestRecord Name="chimeralabs">
+          <Results>
+            <UnitTestResult>
+              <TestDate>2015-11-09T14:55:36</TestDate>
+              <Passed>0</Passed>
+              <Errors>3</Errors>
+              <Failures>0</Failures>
+              <Inconclusive>0</Inconclusive>
+              <NotRunnable>0</NotRunnable>
+              <Skipped>0</Skipped>
+              <Ignored>0</Ignored>
+              <Time />
+              <Message>One or more child tests had errors</Message>
+            </UnitTestResult>
+            <UnitTestResult>
+              <TestDate>2015-11-09T14:59:49</TestDate>
+              <Passed>1</Passed>
+              <Errors>2</Errors>
+              <Failures>0</Failures>
+              <Inconclusive>0</Inconclusive>
+              <NotRunnable>0</NotRunnable>
+              <Skipped>0</Skipped>
+              <Ignored>0</Ignored>
+              <Time />
+              <Message>One or more child tests had errors</Message>
+            </UnitTestResult>
+            <UnitTestResult>
+              <TestDate>2015-11-09T15:00:35</TestDate>
+              <Passed>2</Passed>
+              <Errors>1</Errors>
+              <Failures>0</Failures>
+              <Inconclusive>0</Inconclusive>
+              <NotRunnable>0</NotRunnable>
+              <Skipped>0</Skipped>
+              <Ignored>0</Ignored>
+              <Time />
+              <Message>One or more child tests had errors</Message>
+            </UnitTestResult>
+            <UnitTestResult>
+              <TestDate>2015-11-09T15:01:30</TestDate>
+              <Passed>2</Passed>
+              <Errors>0</Errors>
+              <Failures>0</Failures>
+              <Inconclusive>0</Inconclusive>
+              <NotRunnable>0</NotRunnable>
+              <Skipped>0</Skipped>
+              <Ignored>0</Ignored>
+              <Time />
+              <Message>Test successful
+
+Execution time: 3.56ms</Message>
+            </UnitTestResult>
+            <UnitTestResult>
+              <TestDate>2015-11-09T15:02:11</TestDate>
+              <Passed>2</Passed>
+              <Errors>0</Errors>
+              <Failures>0</Failures>
+              <Inconclusive>0</Inconclusive>
+              <NotRunnable>0</NotRunnable>
+              <Skipped>0</Skipped>
+              <Ignored>0</Ignored>
+              <Time />
+              <Message>Test successful
+
+Execution time: 3.57ms</Message>
+            </UnitTestResult>
+            <UnitTestResult>
+              <TestDate>2015-11-09T15:16:13</TestDate>
+              <Passed>2</Passed>
+              <Errors>0</Errors>
+              <Failures>0</Failures>
+              <Inconclusive>0</Inconclusive>
+              <NotRunnable>0</NotRunnable>
+              <Skipped>0</Skipped>
+              <Ignored>0</Ignored>
+              <Time />
+              <Message>Test successful
+
+Execution time: 0.43ms</Message>
+            </UnitTestResult>
+            <UnitTestResult>
+              <TestDate>2015-11-09T15:18:52</TestDate>
+              <Passed>2</Passed>
+              <Errors>0</Errors>
+              <Failures>0</Failures>
+              <Inconclusive>0</Inconclusive>
+              <NotRunnable>0</NotRunnable>
+              <Skipped>0</Skipped>
+              <Ignored>0</Ignored>
+              <Time />
+              <Message>Test successful
+
+Execution time: 0.43ms</Message>
+            </UnitTestResult>
+            <UnitTestResult>
+              <TestDate>2015-11-09T15:21:33</TestDate>
+              <Passed>2</Passed>
+              <Errors>0</Errors>
+              <Failures>0</Failures>
+              <Inconclusive>0</Inconclusive>
+              <NotRunnable>0</NotRunnable>
+              <Skipped>0</Skipped>
+              <Ignored>0</Ignored>
+              <Time />
+              <Message>Test successful
+
+Execution time: 0.43ms</Message>
+            </UnitTestResult>
+          </Results>
+          <Tests>
+            <TestRecord Name="ads">
+              <Results>
+                <UnitTestResult>
+                  <TestDate>2015-11-09T14:55:36</TestDate>
+                  <Passed>0</Passed>
+                  <Errors>3</Errors>
+                  <Failures>0</Failures>
+                  <Inconclusive>0</Inconclusive>
+                  <NotRunnable>0</NotRunnable>
+                  <Skipped>0</Skipped>
+                  <Ignored>0</Ignored>
+                  <Time />
+                  <Message>One or more child tests had errors</Message>
+                </UnitTestResult>
+                <UnitTestResult>
+                  <TestDate>2015-11-09T14:59:49</TestDate>
+                  <Passed>1</Passed>
+                  <Errors>2</Errors>
+                  <Failures>0</Failures>
+                  <Inconclusive>0</Inconclusive>
+                  <NotRunnable>0</NotRunnable>
+                  <Skipped>0</Skipped>
+                  <Ignored>0</Ignored>
+                  <Time />
+                  <Message>One or more child tests had errors</Message>
+                </UnitTestResult>
+                <UnitTestResult>
+                  <TestDate>2015-11-09T15:00:35</TestDate>
+                  <Passed>2</Passed>
+                  <Errors>1</Errors>
+                  <Failures>0</Failures>
+                  <Inconclusive>0</Inconclusive>
+                  <NotRunnable>0</NotRunnable>
+                  <Skipped>0</Skipped>
+                  <Ignored>0</Ignored>
+                  <Time />
+                  <Message>One or more child tests had errors</Message>
+                </UnitTestResult>
+                <UnitTestResult>
+                  <TestDate>2015-11-09T15:01:30</TestDate>
+                  <Passed>2</Passed>
+                  <Errors>0</Errors>
+                  <Failures>0</Failures>
+                  <Inconclusive>0</Inconclusive>
+                  <NotRunnable>0</NotRunnable>
+                  <Skipped>0</Skipped>
+                  <Ignored>0</Ignored>
+                  <Time />
+                  <Message>Test successful
+
+Execution time: 3.56ms</Message>
+                </UnitTestResult>
+                <UnitTestResult>
+                  <TestDate>2015-11-09T15:02:11</TestDate>
+                  <Passed>2</Passed>
+                  <Errors>0</Errors>
+                  <Failures>0</Failures>
+                  <Inconclusive>0</Inconclusive>
+                  <NotRunnable>0</NotRunnable>
+                  <Skipped>0</Skipped>
+                  <Ignored>0</Ignored>
+                  <Time />
+                  <Message>Test successful
+
+Execution time: 3.57ms</Message>
+                </UnitTestResult>
+                <UnitTestResult>
+                  <TestDate>2015-11-09T15:16:13</TestDate>
+                  <Passed>2</Passed>
+                  <Errors>0</Errors>
+                  <Failures>0</Failures>
+                  <Inconclusive>0</Inconclusive>
+                  <NotRunnable>0</NotRunnable>
+                  <Skipped>0</Skipped>
+                  <Ignored>0</Ignored>
+                  <Time />
+                  <Message>Test successful
+
+Execution time: 0.43ms</Message>
+                </UnitTestResult>
+                <UnitTestResult>
+                  <TestDate>2015-11-09T15:18:52</TestDate>
+                  <Passed>2</Passed>
+                  <Errors>0</Errors>
+                  <Failures>0</Failures>
+                  <Inconclusive>0</Inconclusive>
+                  <NotRunnable>0</NotRunnable>
+                  <Skipped>0</Skipped>
+                  <Ignored>0</Ignored>
+                  <Time />
+                  <Message>Test successful
+
+Execution time: 0.43ms</Message>
+                </UnitTestResult>
+                <UnitTestResult>
+                  <TestDate>2015-11-09T15:21:33</TestDate>
+                  <Passed>2</Passed>
+                  <Errors>0</Errors>
+                  <Failures>0</Failures>
+                  <Inconclusive>0</Inconclusive>
+                  <NotRunnable>0</NotRunnable>
+                  <Skipped>0</Skipped>
+                  <Ignored>0</Ignored>
+                  <Time />
+                  <Message>Test successful
+
+Execution time: 0.43ms</Message>
+                </UnitTestResult>
+              </Results>
+              <Tests>
+                <TestRecord Name="managed">
+                  <Results>
+                    <UnitTestResult>
+                      <TestDate>2015-11-09T14:55:36</TestDate>
+                      <Passed>0</Passed>
+                      <Errors>3</Errors>
+                      <Failures>0</Failures>
+                      <Inconclusive>0</Inconclusive>
+                      <NotRunnable>0</NotRunnable>
+                      <Skipped>0</Skipped>
+                      <Ignored>0</Ignored>
+                      <Time />
+                      <Message>One or more child tests had errors</Message>
+                    </UnitTestResult>
+                    <UnitTestResult>
+                      <TestDate>2015-11-09T14:59:49</TestDate>
+                      <Passed>1</Passed>
+                      <Errors>2</Errors>
+                      <Failures>0</Failures>
+                      <Inconclusive>0</Inconclusive>
+                      <NotRunnable>0</NotRunnable>
+                      <Skipped>0</Skipped>
+                      <Ignored>0</Ignored>
+                      <Time />
+                      <Message>One or more child tests had errors</Message>
+                    </UnitTestResult>
+                    <UnitTestResult>
+                      <TestDate>2015-11-09T15:00:35</TestDate>
+                      <Passed>2</Passed>
+                      <Errors>1</Errors>
+                      <Failures>0</Failures>
+                      <Inconclusive>0</Inconclusive>
+                      <NotRunnable>0</NotRunnable>
+                      <Skipped>0</Skipped>
+                      <Ignored>0</Ignored>
+                      <Time />
+                      <Message>One or more child tests had errors</Message>
+                    </UnitTestResult>
+                    <UnitTestResult>
+                      <TestDate>2015-11-09T15:01:30</TestDate>
+                      <Passed>2</Passed>
+                      <Errors>0</Errors>
+                      <Failures>0</Failures>
+                      <Inconclusive>0</Inconclusive>
+                      <NotRunnable>0</NotRunnable>
+                      <Skipped>0</Skipped>
+                      <Ignored>0</Ignored>
+                      <Time />
+                      <Message>Test successful
+
+Execution time: 3.56ms</Message>
+                    </UnitTestResult>
+                    <UnitTestResult>
+                      <TestDate>2015-11-09T15:02:11</TestDate>
+                      <Passed>2</Passed>
+                      <Errors>0</Errors>
+                      <Failures>0</Failures>
+                      <Inconclusive>0</Inconclusive>
+                      <NotRunnable>0</NotRunnable>
+                      <Skipped>0</Skipped>
+                      <Ignored>0</Ignored>
+                      <Time />
+                      <Message>Test successful
+
+Execution time: 3.57ms</Message>
+                    </UnitTestResult>
+                    <UnitTestResult>
+                      <TestDate>2015-11-09T15:16:13</TestDate>
+                      <Passed>2</Passed>
+                      <Errors>0</Errors>
+                      <Failures>0</Failures>
+                      <Inconclusive>0</Inconclusive>
+                      <NotRunnable>0</NotRunnable>
+                      <Skipped>0</Skipped>
+                      <Ignored>0</Ignored>
+                      <Time />
+                      <Message>Test successful
+
+Execution time: 0.43ms</Message>
+                    </UnitTestResult>
+                    <UnitTestResult>
+                      <TestDate>2015-11-09T15:18:52</TestDate>
+                      <Passed>2</Passed>
+                      <Errors>0</Errors>
+                      <Failures>0</Failures>
+                      <Inconclusive>0</Inconclusive>
+                      <NotRunnable>0</NotRunnable>
+                      <Skipped>0</Skipped>
+                      <Ignored>0</Ignored>
+                      <Time />
+                      <Message>Test successful
+
+Execution time: 0.43ms</Message>
+                    </UnitTestResult>
+                    <UnitTestResult>
+                      <TestDate>2015-11-09T15:21:33</TestDate>
+                      <Passed>2</Passed>
+                      <Errors>0</Errors>
+                      <Failures>0</Failures>
+                      <Inconclusive>0</Inconclusive>
+                      <NotRunnable>0</NotRunnable>
+                      <Skipped>0</Skipped>
+                      <Ignored>0</Ignored>
+                      <Time />
+                      <Message>Test successful
+
+Execution time: 0.43ms</Message>
+                    </UnitTestResult>
+                  </Results>
+                  <Tests>
+                    <TestRecord Name="test">
+                      <Results>
+                        <UnitTestResult>
+                          <TestDate>2015-11-09T14:55:36</TestDate>
+                          <Passed>0</Passed>
+                          <Errors>3</Errors>
+                          <Failures>0</Failures>
+                          <Inconclusive>0</Inconclusive>
+                          <NotRunnable>0</NotRunnable>
+                          <Skipped>0</Skipped>
+                          <Ignored>0</Ignored>
+                          <Time />
+                          <Message>One or more child tests had errors</Message>
+                        </UnitTestResult>
+                        <UnitTestResult>
+                          <TestDate>2015-11-09T14:59:49</TestDate>
+                          <Passed>1</Passed>
+                          <Errors>2</Errors>
+                          <Failures>0</Failures>
+                          <Inconclusive>0</Inconclusive>
+                          <NotRunnable>0</NotRunnable>
+                          <Skipped>0</Skipped>
+                          <Ignored>0</Ignored>
+                          <Time />
+                          <Message>One or more child tests had errors</Message>
+                        </UnitTestResult>
+                        <UnitTestResult>
+                          <TestDate>2015-11-09T15:00:35</TestDate>
+                          <Passed>2</Passed>
+                          <Errors>1</Errors>
+                          <Failures>0</Failures>
+                          <Inconclusive>0</Inconclusive>
+                          <NotRunnable>0</NotRunnable>
+                          <Skipped>0</Skipped>
+                          <Ignored>0</Ignored>
+                          <Time />
+                          <Message>One or more child tests had errors</Message>
+                        </UnitTestResult>
+                        <UnitTestResult>
+                          <TestDate>2015-11-09T15:01:30</TestDate>
+                          <Passed>2</Passed>
+                          <Errors>0</Errors>
+                          <Failures>0</Failures>
+                          <Inconclusive>0</Inconclusive>
+                          <NotRunnable>0</NotRunnable>
+                          <Skipped>0</Skipped>
+                          <Ignored>0</Ignored>
+                          <Time />
+                          <Message>Test successful
+
+Execution time: 3.56ms</Message>
+                        </UnitTestResult>
+                        <UnitTestResult>
+                          <TestDate>2015-11-09T15:02:11</TestDate>
+                          <Passed>2</Passed>
+                          <Errors>0</Errors>
+                          <Failures>0</Failures>
+                          <Inconclusive>0</Inconclusive>
+                          <NotRunnable>0</NotRunnable>
+                          <Skipped>0</Skipped>
+                          <Ignored>0</Ignored>
+                          <Time />
+                          <Message>Test successful
+
+Execution time: 3.57ms</Message>
+                        </UnitTestResult>
+                        <UnitTestResult>
+                          <TestDate>2015-11-09T15:16:13</TestDate>
+                          <Passed>2</Passed>
+                          <Errors>0</Errors>
+                          <Failures>0</Failures>
+                          <Inconclusive>0</Inconclusive>
+                          <NotRunnable>0</NotRunnable>
+                          <Skipped>0</Skipped>
+                          <Ignored>0</Ignored>
+                          <Time />
+                          <Message>Test successful
+
+Execution time: 0.43ms</Message>
+                        </UnitTestResult>
+                        <UnitTestResult>
+                          <TestDate>2015-11-09T15:18:52</TestDate>
+                          <Passed>2</Passed>
+                          <Errors>0</Errors>
+                          <Failures>0</Failures>
+                          <Inconclusive>0</Inconclusive>
+                          <NotRunnable>0</NotRunnable>
+                          <Skipped>0</Skipped>
+                          <Ignored>0</Ignored>
+                          <Time />
+                          <Message>Test successful
+
+Execution time: 0.43ms</Message>
+                        </UnitTestResult>
+                        <UnitTestResult>
+                          <TestDate>2015-11-09T15:21:33</TestDate>
+                          <Passed>2</Passed>
+                          <Errors>0</Errors>
+                          <Failures>0</Failures>
+                          <Inconclusive>0</Inconclusive>
+                          <NotRunnable>0</NotRunnable>
+                          <Skipped>0</Skipped>
+                          <Ignored>0</Ignored>
+                          <Time />
+                          <Message>Test successful
+
+Execution time: 0.43ms</Message>
+                        </UnitTestResult>
+                      </Results>
+                      <Tests>
+                        <TestRecord Name="Utils">
+                          <Results>
+                            <UnitTestResult>
+                              <TestDate>2015-11-09T14:55:36</TestDate>
+                              <Passed>0</Passed>
+                              <Errors>2</Errors>
+                              <Failures>0</Failures>
+                              <Inconclusive>0</Inconclusive>
+                              <NotRunnable>0</NotRunnable>
+                              <Skipped>0</Skipped>
+                              <Ignored>0</Ignored>
+                              <Time />
+                              <Message>One or more child tests had errors</Message>
+                            </UnitTestResult>
+                            <UnitTestResult>
+                              <TestDate>2015-11-09T14:59:49</TestDate>
+                              <Passed>0</Passed>
+                              <Errors>2</Errors>
+                              <Failures>0</Failures>
+                              <Inconclusive>0</Inconclusive>
+                              <NotRunnable>0</NotRunnable>
+                              <Skipped>0</Skipped>
+                              <Ignored>0</Ignored>
+                              <Time />
+                              <Message>One or more child tests had errors</Message>
+                            </UnitTestResult>
+                            <UnitTestResult>
+                              <TestDate>2015-11-09T15:00:35</TestDate>
+                              <Passed>1</Passed>
+                              <Errors>1</Errors>
+                              <Failures>0</Failures>
+                              <Inconclusive>0</Inconclusive>
+                              <NotRunnable>0</NotRunnable>
+                              <Skipped>0</Skipped>
+                              <Ignored>0</Ignored>
+                              <Time />
+                              <Message>One or more child tests had errors</Message>
+                            </UnitTestResult>
+                            <UnitTestResult>
+                              <TestDate>2015-11-09T15:01:30</TestDate>
+                              <Passed>1</Passed>
+                              <Errors>0</Errors>
+                              <Failures>0</Failures>
+                              <Inconclusive>0</Inconclusive>
+                              <NotRunnable>0</NotRunnable>
+                              <Skipped>0</Skipped>
+                              <Ignored>0</Ignored>
+                              <Time />
+                              <Message>Test successful
+
+Execution time: 0.01ms</Message>
+                            </UnitTestResult>
+                            <UnitTestResult>
+                              <TestDate>2015-11-09T15:02:11</TestDate>
+                              <Passed>1</Passed>
+                              <Errors>0</Errors>
+                              <Failures>0</Failures>
+                              <Inconclusive>0</Inconclusive>
+                              <NotRunnable>0</NotRunnable>
+                              <Skipped>0</Skipped>
+                              <Ignored>0</Ignored>
+                              <Time />
+                              <Message>Test successful
+
+Execution time: 0.00ms</Message>
+                            </UnitTestResult>
+                            <UnitTestResult>
+                              <TestDate>2015-11-09T15:16:13</TestDate>
+                              <Passed>1</Passed>
+                              <Errors>0</Errors>
+                              <Failures>0</Failures>
+                              <Inconclusive>0</Inconclusive>
+                              <NotRunnable>0</NotRunnable>
+                              <Skipped>0</Skipped>
+                              <Ignored>0</Ignored>
+                              <Time />
+                              <Message>Test successful
+
+Execution time: 0.00ms</Message>
+                            </UnitTestResult>
+                            <UnitTestResult>
+                              <TestDate>2015-11-09T15:18:52</TestDate>
+                              <Passed>1</Passed>
+                              <Errors>0</Errors>
+                              <Failures>0</Failures>
+                              <Inconclusive>0</Inconclusive>
+                              <NotRunnable>0</NotRunnable>
+                              <Skipped>0</Skipped>
+                              <Ignored>0</Ignored>
+                              <Time />
+                              <Message>Test successful
+
+Execution time: 0.00ms</Message>
+                            </UnitTestResult>
+                            <UnitTestResult>
+                              <TestDate>2015-11-09T15:21:33</TestDate>
+                              <Passed>1</Passed>
+                              <Errors>0</Errors>
+                              <Failures>0</Failures>
+                              <Inconclusive>0</Inconclusive>
+                              <NotRunnable>0</NotRunnable>
+                              <Skipped>0</Skipped>
+                              <Ignored>0</Ignored>
+                              <Time />
+                              <Message>Test successful
+
+Execution time: 0.00ms</Message>
+                            </UnitTestResult>
+                          </Results>
+                          <Tests>
+                            <TestRecord Name="LoggerTest">
+                              <Results>
+                                <UnitTestResult>
+                                  <TestDate>2015-11-09T08:11:53</TestDate>
+                                  <Passed>0</Passed>
+                                  <Errors>1</Errors>
+                                  <Failures>0</Failures>
+                                  <Inconclusive>0</Inconclusive>
+                                  <NotRunnable>0</NotRunnable>
+                                  <Skipped>0</Skipped>
+                                  <Ignored>0</Ignored>
+                                  <Time />
+                                  <Message>One or more child tests had errors</Message>
+                                </UnitTestResult>
+                                <UnitTestResult>
+                                  <TestDate>2015-11-09T08:12:17</TestDate>
+                                  <Passed>0</Passed>
+                                  <Errors>1</Errors>
+                                  <Failures>0</Failures>
+                                  <Inconclusive>0</Inconclusive>
+                                  <NotRunnable>0</NotRunnable>
+                                  <Skipped>0</Skipped>
+                                  <Ignored>0</Ignored>
+                                  <Time />
+                                  <Message>One or more child tests had errors</Message>
+                                </UnitTestResult>
+                                <UnitTestResult>
+                                  <TestDate>2015-11-09T08:14:02</TestDate>
+                                  <Passed>0</Passed>
+                                  <Errors>1</Errors>
+                                  <Failures>0</Failures>
+                                  <Inconclusive>0</Inconclusive>
+                                  <NotRunnable>0</NotRunnable>
+                                  <Skipped>0</Skipped>
+                                  <Ignored>0</Ignored>
+                                  <Time />
+                                  <Message>One or more child tests had errors</Message>
+                                </UnitTestResult>
+                                <UnitTestResult>
+                                  <TestDate>2015-11-09T08:15:22</TestDate>
+                                  <Passed>0</Passed>
+                                  <Errors>1</Errors>
+                                  <Failures>0</Failures>
+                                  <Inconclusive>0</Inconclusive>
+                                  <NotRunnable>0</NotRunnable>
+                                  <Skipped>0</Skipped>
+                                  <Ignored>0</Ignored>
+                                  <Time />
+                                  <Message>One or more child tests had errors</Message>
+                                </UnitTestResult>
+                                <UnitTestResult>
+                                  <TestDate>2015-11-09T08:35:26</TestDate>
+                                  <Passed>1</Passed>
+                                  <Errors>0</Errors>
+                                  <Failures>0</Failures>
+                                  <Inconclusive>0</Inconclusive>
+                                  <NotRunnable>0</NotRunnable>
+                                  <Skipped>0</Skipped>
+                                  <Ignored>0</Ignored>
+                                  <Time />
+                                  <Message>Test successful
+
+Execution time: 0.16ms</Message>
+                                </UnitTestResult>
+                                <UnitTestResult>
+                                  <TestDate>2015-11-09T08:36:49</TestDate>
+                                  <Passed>1</Passed>
+                                  <Errors>0</Errors>
+                                  <Failures>0</Failures>
+                                  <Inconclusive>0</Inconclusive>
+                                  <NotRunnable>0</NotRunnable>
+                                  <Skipped>0</Skipped>
+                                  <Ignored>0</Ignored>
+                                  <Time />
+                                  <Message>Test successful
+
+Execution time: 0.06ms</Message>
+                                </UnitTestResult>
+                                <UnitTestResult>
+                                  <TestDate>2015-11-09T08:40:33</TestDate>
+                                  <Passed>1</Passed>
+                                  <Errors>0</Errors>
+                                  <Failures>0</Failures>
+                                  <Inconclusive>0</Inconclusive>
+                                  <NotRunnable>0</NotRunnable>
+                                  <Skipped>0</Skipped>
+                                  <Ignored>0</Ignored>
+                                  <Time />
+                                  <Message>Test successful
+
+Execution time: 0.13ms</Message>
+                                </UnitTestResult>
+                                <UnitTestResult>
+                                  <TestDate>2015-11-09T08:40:53</TestDate>
+                                  <Passed>1</Passed>
+                                  <Errors>0</Errors>
+                                  <Failures>0</Failures>
+                                  <Inconclusive>0</Inconclusive>
+                                  <NotRunnable>0</NotRunnable>
+                                  <Skipped>0</Skipped>
+                                  <Ignored>0</Ignored>
+                                  <Time />
+                                  <Message>Test successful
+
+Execution time: 0.06ms</Message>
+                                </UnitTestResult>
+                                <UnitTestResult>
+                                  <TestDate>2015-11-09T08:42:22</TestDate>
+                                  <Passed>1</Passed>
+                                  <Errors>0</Errors>
+                                  <Failures>0</Failures>
+                                  <Inconclusive>0</Inconclusive>
+                                  <NotRunnable>0</NotRunnable>
+                                  <Skipped>0</Skipped>
+                                  <Ignored>0</Ignored>
+                                  <Time />
+                                  <Message>Test successful
+
+Execution time: 0.06ms</Message>
+                                </UnitTestResult>
+                                <UnitTestResult>
+                                  <TestDate>2015-11-09T08:43:01</TestDate>
+                                  <Passed>1</Passed>
+                                  <Errors>0</Errors>
+                                  <Failures>0</Failures>
+                                  <Inconclusive>0</Inconclusive>
+                                  <NotRunnable>0</NotRunnable>
+                                  <Skipped>0</Skipped>
+                                  <Ignored>0</Ignored>
+                                  <Time />
+                                  <Message>Test successful
+
+Execution time: 0.06ms</Message>
+                                </UnitTestResult>
+                                <UnitTestResult>
+                                  <TestDate>2015-11-09T08:44:13</TestDate>
+                                  <Passed>1</Passed>
+                                  <Errors>0</Errors>
+                                  <Failures>0</Failures>
+                                  <Inconclusive>0</Inconclusive>
+                                  <NotRunnable>0</NotRunnable>
+                                  <Skipped>0</Skipped>
+                                  <Ignored>0</Ignored>
+                                  <Time />
+                                  <Message>Test successful
+
+Execution time: 0.05ms</Message>
+                                </UnitTestResult>
+                                <UnitTestResult>
+                                  <TestDate>2015-11-09T08:49:08</TestDate>
+                                  <Passed>1</Passed>
+                                  <Errors>0</Errors>
+                                  <Failures>0</Failures>
+                                  <Inconclusive>0</Inconclusive>
+                                  <NotRunnable>0</NotRunnable>
+                                  <Skipped>0</Skipped>
+                                  <Ignored>0</Ignored>
+                                  <Time />
+                                  <Message>Test successful
+
+Execution time: 0.05ms</Message>
+                                </UnitTestResult>
+                                <UnitTestResult>
+                                  <TestDate>2015-11-09T14:55:36</TestDate>
+                                  <Passed>0</Passed>
+                                  <Errors>1</Errors>
+                                  <Failures>0</Failures>
+                                  <Inconclusive>0</Inconclusive>
+                                  <NotRunnable>0</NotRunnable>
+                                  <Skipped>0</Skipped>
+                                  <Ignored>0</Ignored>
+                                  <Time />
+                                  <Message>One or more child tests had errors</Message>
+                                </UnitTestResult>
+                                <UnitTestResult>
+                                  <TestDate>2015-11-09T14:59:49</TestDate>
+                                  <Passed>0</Passed>
+                                  <Errors>1</Errors>
+                                  <Failures>0</Failures>
+                                  <Inconclusive>0</Inconclusive>
+                                  <NotRunnable>0</NotRunnable>
+                                  <Skipped>0</Skipped>
+                                  <Ignored>0</Ignored>
+                                  <Time />
+                                  <Message>One or more child tests had errors</Message>
+                                </UnitTestResult>
+                                <UnitTestResult>
+                                  <TestDate>2015-11-09T15:00:35</TestDate>
+                                  <Passed>1</Passed>
+                                  <Errors>0</Errors>
+                                  <Failures>0</Failures>
+                                  <Inconclusive>0</Inconclusive>
+                                  <NotRunnable>0</NotRunnable>
+                                  <Skipped>0</Skipped>
+                                  <Ignored>0</Ignored>
+                                  <Time />
+                                  <Message>Test successful
+
+Execution time: 0.00ms</Message>
+                                </UnitTestResult>
+                                <UnitTestResult>
+                                  <TestDate>2015-11-09T15:01:30</TestDate>
+                                  <Passed>1</Passed>
+                                  <Errors>0</Errors>
+                                  <Failures>0</Failures>
+                                  <Inconclusive>0</Inconclusive>
+                                  <NotRunnable>0</NotRunnable>
+                                  <Skipped>0</Skipped>
+                                  <Ignored>0</Ignored>
+                                  <Time />
+                                  <Message>Test successful
+
+Execution time: 0.01ms</Message>
+                                </UnitTestResult>
+                                <UnitTestResult>
+                                  <TestDate>2015-11-09T15:02:11</TestDate>
+                                  <Passed>1</Passed>
+                                  <Errors>0</Errors>
+                                  <Failures>0</Failures>
+                                  <Inconclusive>0</Inconclusive>
+                                  <NotRunnable>0</NotRunnable>
+                                  <Skipped>0</Skipped>
+                                  <Ignored>0</Ignored>
+                                  <Time />
+                                  <Message>Test successful
+
+Execution time: 0.00ms</Message>
+                                </UnitTestResult>
+                                <UnitTestResult>
+                                  <TestDate>2015-11-09T15:16:13</TestDate>
+                                  <Passed>1</Passed>
+                                  <Errors>0</Errors>
+                                  <Failures>0</Failures>
+                                  <Inconclusive>0</Inconclusive>
+                                  <NotRunnable>0</NotRunnable>
+                                  <Skipped>0</Skipped>
+                                  <Ignored>0</Ignored>
+                                  <Time />
+                                  <Message>Test successful
+
+Execution time: 0.00ms</Message>
+                                </UnitTestResult>
+                                <UnitTestResult>
+                                  <TestDate>2015-11-09T15:18:52</TestDate>
+                                  <Passed>1</Passed>
+                                  <Errors>0</Errors>
+                                  <Failures>0</Failures>
+                                  <Inconclusive>0</Inconclusive>
+                                  <NotRunnable>0</NotRunnable>
+                                  <Skipped>0</Skipped>
+                                  <Ignored>0</Ignored>
+                                  <Time />
+                                  <Message>Test successful
+
+Execution time: 0.00ms</Message>
+                                </UnitTestResult>
+                                <UnitTestResult>
+                                  <TestDate>2015-11-09T15:21:33</TestDate>
+                                  <Passed>1</Passed>
+                                  <Errors>0</Errors>
+                                  <Failures>0</Failures>
+                                  <Inconclusive>0</Inconclusive>
+                                  <NotRunnable>0</NotRunnable>
+                                  <Skipped>0</Skipped>
+                                  <Ignored>0</Ignored>
+                                  <Time />
+                                  <Message>Test successful
+
+Execution time: 0.00ms</Message>
+                                </UnitTestResult>
+                              </Results>
+                              <Tests>
+                                <TestRecord Name="LogTest">
+                                  <Results>
+                                    <UnitTestResult>
+                                      <TestDate>2015-11-09T08:11:53</TestDate>
+                                      <Passed>0</Passed>
+                                      <Errors>1</Errors>
+                                      <Failures>0</Failures>
+                                      <Inconclusive>0</Inconclusive>
+                                      <NotRunnable>0</NotRunnable>
+                                      <Skipped>0</Skipped>
+                                      <Ignored>0</Ignored>
+                                      <Time />
+                                      <Message>System.TypeInitializationException : The type initializer for 'co.chimeralabs.ads.managed.Utils.Logger' threw an exception.
+  ----&gt; System.UnauthorizedAccessException : Access to the path 'c:\test.txt' is denied.</Message>
+                                      <StackTrace>   at co.chimeralabs.ads.managed.Utils.Logger.Log(Object context, String lines)
+   at co.chimeralabs.ads.managed.test.Utils.LoggerTest.LogTest() in e:\Chimera\workspace\AdNetwork\AdClient\AdClientSDK\Managed\AdClientSDKManaged\AdClientSDKManagedTest\Utils\LoggerTest.cs:line 12
+--UnauthorizedAccessException
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.StreamWriter..ctor(String path, Boolean append, Encoding encoding, Int32 bufferSize, Boolean checkHost)
+   at System.IO.StreamWriter..ctor(String path, Boolean append, Encoding encoding, Int32 bufferSize)
+   at System.IO.StreamWriter..ctor(String path, Boolean append)
+   at co.chimeralabs.ads.managed.Utils.Logger..cctor() in e:\Chimera\workspace\AdNetwork\AdClient\AdClientSDK\Managed\AdClientSDKManaged\AdClientSDKManaged\Utils\Logger.cs:line 7</StackTrace>
+                                      <ConsoleOutput />
+                                      <ConsoleError />
+                                    </UnitTestResult>
+                                    <UnitTestResult>
+                                      <TestDate>2015-11-09T08:12:17</TestDate>
+                                      <Passed>0</Passed>
+                                      <Errors>1</Errors>
+                                      <Failures>0</Failures>
+                                      <Inconclusive>0</Inconclusive>
+                                      <NotRunnable>0</NotRunnable>
+                                      <Skipped>0</Skipped>
+                                      <Ignored>0</Ignored>
+                                      <Time />
+                                      <Message>System.TypeInitializationException : The type initializer for 'co.chimeralabs.ads.managed.Utils.Logger' threw an exception.
+  ----&gt; System.UnauthorizedAccessException : Access to the path 'c:\test.txt' is denied.</Message>
+                                      <StackTrace>   at co.chimeralabs.ads.managed.Utils.Logger.Log(Object context, String lines)
+   at co.chimeralabs.ads.managed.test.Utils.LoggerTest.LogTest() in e:\Chimera\workspace\AdNetwork\AdClient\AdClientSDK\Managed\AdClientSDKManaged\AdClientSDKManagedTest\Utils\LoggerTest.cs:line 12
+--UnauthorizedAccessException
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.StreamWriter..ctor(String path, Boolean append, Encoding encoding, Int32 bufferSize, Boolean checkHost)
+   at System.IO.StreamWriter..ctor(String path, Boolean append, Encoding encoding, Int32 bufferSize)
+   at System.IO.StreamWriter..ctor(String path, Boolean append)
+   at co.chimeralabs.ads.managed.Utils.Logger..cctor() in e:\Chimera\workspace\AdNetwork\AdClient\AdClientSDK\Managed\AdClientSDKManaged\AdClientSDKManaged\Utils\Logger.cs:line 7</StackTrace>
+                                      <ConsoleOutput />
+                                      <ConsoleError />
+                                    </UnitTestResult>
+                                    <UnitTestResult>
+                                      <TestDate>2015-11-09T08:14:02</TestDate>
+                                      <Passed>0</Passed>
+                                      <Errors>1</Errors>
+                                      <Failures>0</Failures>
+                                      <Inconclusive>0</Inconclusive>
+                                      <NotRunnable>0</NotRunnable>
+                                      <Skipped>0</Skipped>
+                                      <Ignored>0</Ignored>
+                                      <Time />
+                                      <Message>System.NullReferenceException : Object reference not set to an instance of an object.</Message>
+                                      <StackTrace>   at co.chimeralabs.ads.managed.Utils.Logger.Log(Object context, String lines) in e:\Chimera\workspace\AdNetwork\AdClient\AdClientSDK\Managed\AdClientSDKManaged\AdClientSDKManaged\Utils\Logger.cs:line 12
+   at co.chimeralabs.ads.managed.test.Utils.LoggerTest.LogTest() in e:\Chimera\workspace\AdNetwork\AdClient\AdClientSDK\Managed\AdClientSDKManaged\AdClientSDKManagedTest\Utils\LoggerTest.cs:line 12</StackTrace>
+                                      <ConsoleOutput />
+                                      <ConsoleError />
+                                    </UnitTestResult>
+                                    <UnitTestResult>
+                                      <TestDate>2015-11-09T08:15:22</TestDate>
+                                      <Passed>0</Passed>
+                                      <Errors>1</Errors>
+                                      <Failures>0</Failures>
+                                      <Inconclusive>0</Inconclusive>
+                                      <NotRunnable>0</NotRunnable>
+                                      <Skipped>0</Skipped>
+                                      <Ignored>0</Ignored>
+                                      <Time />
+                                      <Message>System.UnauthorizedAccessException : Access to the path 'c:\test.txt' is denied.</Message>
+                                      <StackTrace>   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.StreamWriter..ctor(String path, Boolean append, Encoding encoding, Int32 bufferSize, Boolean checkHost)
+   at System.IO.StreamWriter..ctor(String path, Boolean append, Encoding encoding, Int32 bufferSize)
+   at System.IO.StreamWriter..ctor(String path, Boolean append)
+   at co.chimeralabs.ads.managed.Utils.Logger.Log(Object context, String lines) in e:\Chimera\workspace\AdNetwork\AdClient\AdClientSDK\Managed\AdClientSDKManaged\AdClientSDKManaged\Utils\Logger.cs:line 10
+   at co.chimeralabs.ads.managed.test.Utils.LoggerTest.LogTest() in e:\Chimera\workspace\AdNetwork\AdClient\AdClientSDK\Managed\AdClientSDKManaged\AdClientSDKManagedTest\Utils\LoggerTest.cs:line 12</StackTrace>
+                                      <ConsoleOutput />
+                                      <ConsoleError />
+                                    </UnitTestResult>
+                                    <UnitTestResult>
+                                      <TestDate>2015-11-09T08:35:26</TestDate>
+                                      <Passed>1</Passed>
+                                      <Errors>0</Errors>
+                                      <Failures>0</Failures>
+                                      <Inconclusive>0</Inconclusive>
+                                      <NotRunnable>0</NotRunnable>
+                                      <Skipped>0</Skipped>
+                                      <Ignored>0</Ignored>
+                                      <Time />
+                                      <Message>Test successful
+
+Execution time: 0.13ms</Message>
+                                      <ConsoleOutput />
+                                      <ConsoleError />
+                                    </UnitTestResult>
+                                    <UnitTestResult>
+                                      <TestDate>2015-11-09T08:36:49</TestDate>
+                                      <Passed>1</Passed>
+                                      <Errors>0</Errors>
+                                      <Failures>0</Failures>
+                                      <Inconclusive>0</Inconclusive>
+                                      <NotRunnable>0</NotRunnable>
+                                      <Skipped>0</Skipped>
+                                      <Ignored>0</Ignored>
+                                      <Time />
+                                      <Message>Test successful
+
+Execution time: 0.02ms</Message>
+                                      <ConsoleOutput />
+                                      <ConsoleError />
+                                    </UnitTestResult>
+                                    <UnitTestResult>
+                                      <TestDate>2015-11-09T08:40:33</TestDate>
+                                      <Passed>1</Passed>
+                                      <Errors>0</Errors>
+                                      <Failures>0</Failures>
+                                      <Inconclusive>0</Inconclusive>
+                                      <NotRunnable>0</NotRunnable>
+                                      <Skipped>0</Skipped>
+                                      <Ignored>0</Ignored>
+                                      <Time />
+                                      <Message>Test successful
+
+Execution time: 0.10ms</Message>
+                                      <ConsoleOutput>11/9/2015 12:00:00 AM
+co.chimeralabs.ads.managed.test.Utils.LoggerTest
+hey there
+</ConsoleOutput>
+                                      <ConsoleError />
+                                    </UnitTestResult>
+                                    <UnitTestResult>
+                                      <TestDate>2015-11-09T08:40:53</TestDate>
+                                      <Passed>1</Passed>
+                                      <Errors>0</Errors>
+                                      <Failures>0</Failures>
+                                      <Inconclusive>0</Inconclusive>
+                                      <NotRunnable>0</NotRunnable>
+                                      <Skipped>0</Skipped>
+                                      <Ignored>0</Ignored>
+                                      <Time />
+                                      <Message>Test successful
+
+Execution time: 0.03ms</Message>
+                                      <ConsoleOutput>11/9/2015 12:00:00 AM
+co.chimeralabs.ads.managed.test.Utils.LoggerTest
+hey there
+</ConsoleOutput>
+                                      <ConsoleError />
+                                    </UnitTestResult>
+                                    <UnitTestResult>
+                                      <TestDate>2015-11-09T08:42:22</TestDate>
+                                      <Passed>1</Passed>
+                                      <Errors>0</Errors>
+                                      <Failures>0</Failures>
+                                      <Inconclusive>0</Inconclusive>
+                                      <NotRunnable>0</NotRunnable>
+                                      <Skipped>0</Skipped>
+                                      <Ignored>0</Ignored>
+                                      <Time />
+                                      <Message>Test successful
+
+Execution time: 0.02ms</Message>
+                                      <ConsoleOutput />
+                                      <ConsoleError />
+                                    </UnitTestResult>
+                                    <UnitTestResult>
+                                      <TestDate>2015-11-09T08:43:01</TestDate>
+                                      <Passed>1</Passed>
+                                      <Errors>0</Errors>
+                                      <Failures>0</Failures>
+                                      <Inconclusive>0</Inconclusive>
+                                      <NotRunnable>0</NotRunnable>
+                                      <Skipped>0</Skipped>
+                                      <Ignored>0</Ignored>
+                                      <Time />
+                                      <Message>Test successful
+
+Execution time: 0.02ms</Message>
+                                      <ConsoleOutput />
+                                      <ConsoleError />
+                                    </UnitTestResult>
+                                    <UnitTestResult>
+                                      <TestDate>2015-11-09T08:44:13</TestDate>
+                                      <Passed>1</Passed>
+                                      <Errors>0</Errors>
+                                      <Failures>0</Failures>
+                                      <Inconclusive>0</Inconclusive>
+                                      <NotRunnable>0</NotRunnable>
+                                      <Skipped>0</Skipped>
+                                      <Ignored>0</Ignored>
+                                      <Time />
+                                      <Message>Test successful
+
+Execution time: 0.03ms</Message>
+                                      <ConsoleOutput />
+                                      <ConsoleError />
+                                    </UnitTestResult>
+                                    <UnitTestResult>
+                                      <TestDate>2015-11-09T08:49:08</TestDate>
+                                      <Passed>1</Passed>
+                                      <Errors>0</Errors>
+                                      <Failures>0</Failures>
+                                      <Inconclusive>0</Inconclusive>
+                                      <NotRunnable>0</NotRunnable>
+                                      <Skipped>0</Skipped>
+                                      <Ignored>0</Ignored>
+                                      <Time />
+                                      <Message>Test successful
+
+Execution time: 0.03ms</Message>
+                                      <ConsoleOutput />
+                                      <ConsoleError />
+                                    </UnitTestResult>
+                                    <UnitTestResult>
+                                      <TestDate>2015-11-09T14:55:36</TestDate>
+                                      <Passed>0</Passed>
+                                      <Errors>1</Errors>
+                                      <Failures>0</Failures>
+                                      <Inconclusive>0</Inconclusive>
+                                      <NotRunnable>0</NotRunnable>
+                                      <Skipped>0</Skipped>
+                                      <Ignored>0</Ignored>
+                                      <Time />
+                                      <Message>System.ObjectDisposedException : Cannot write to a closed TextWriter.</Message>
+                                      <StackTrace>   at System.IO.StreamWriter.Flush(Boolean flushStream, Boolean flushEncoder)
+   at System.IO.StreamWriter.Write(String value)
+   at co.chimeralabs.ads.managed.Utils.Logger.Log(Object context, String lines) in e:\Chimera\workspace\AdNetwork\AdClient\AdClientSDK\Managed\AdClientSDKManaged\AdClientSDKManaged\Utils\Logger.cs:line 15
+   at co.chimeralabs.ads.managed.test.Utils.LoggerTest.LogTest() in e:\Chimera\workspace\AdNetwork\AdClient\AdClientSDK\Managed\AdClientSDKManaged\AdClientSDKManagedTest\Utils\LoggerTest.cs:line 12</StackTrace>
+                                      <ConsoleOutput />
+                                      <ConsoleError />
+                                    </UnitTestResult>
+                                    <UnitTestResult>
+                                      <TestDate>2015-11-09T14:59:49</TestDate>
+                                      <Passed>0</Passed>
+                                      <Errors>1</Errors>
+                                      <Failures>0</Failures>
+                                      <Inconclusive>0</Inconclusive>
+                                      <NotRunnable>0</NotRunnable>
+                                      <Skipped>0</Skipped>
+                                      <Ignored>0</Ignored>
+                                      <Time />
+                                      <Message>System.ObjectDisposedException : Cannot write to a closed TextWriter.</Message>
+                                      <StackTrace>   at System.IO.StreamWriter.Flush(Boolean flushStream, Boolean flushEncoder)
+   at System.IO.StreamWriter.Write(String value)
+   at co.chimeralabs.ads.managed.Utils.Logger.Log(Object context, String lines) in e:\Chimera\workspace\AdNetwork\AdClient\AdClientSDK\Managed\AdClientSDKManaged\AdClientSDKManaged\Utils\Logger.cs:line 12
+   at co.chimeralabs.ads.managed.test.Utils.LoggerTest.LogTest() in e:\Chimera\workspace\AdNetwork\AdClient\AdClientSDK\Managed\AdClientSDKManaged\AdClientSDKManagedTest\Utils\LoggerTest.cs:line 12</StackTrace>
+                                      <ConsoleOutput />
+                                      <ConsoleError />
+                                    </UnitTestResult>
+                                    <UnitTestResult>
+                                      <TestDate>2015-11-09T15:00:35</TestDate>
+                                      <Passed>1</Passed>
+                                      <Errors>0</Errors>
+                                      <Failures>0</Failures>
+                                      <Inconclusive>0</Inconclusive>
+                                      <NotRunnable>0</NotRunnable>
+                                      <Skipped>0</Skipped>
+                                      <Ignored>0</Ignored>
+                                      <Time />
+                                      <Message>Test successful
+
+Execution time: 0.00ms</Message>
+                                      <ConsoleOutput />
+                                      <ConsoleError />
+                                    </UnitTestResult>
+                                    <UnitTestResult>
+                                      <TestDate>2015-11-09T15:01:30</TestDate>
+                                      <Passed>1</Passed>
+                                      <Errors>0</Errors>
+                                      <Failures>0</Failures>
+                                      <Inconclusive>0</Inconclusive>
+                                      <NotRunnable>0</NotRunnable>
+                                      <Skipped>0</Skipped>
+                                      <Ignored>0</Ignored>
+                                      <Time />
+                                      <Message>Test successful
+
+Execution time: 0.00ms</Message>
+                                      <ConsoleOutput />
+                                      <ConsoleError />
+                                    </UnitTestResult>
+                                    <UnitTestResult>
+                                      <TestDate>2015-11-09T15:02:11</TestDate>
+                                      <Passed>1</Passed>
+                                      <Errors>0</Errors>
+                                      <Failures>0</Failures>
+                                      <Inconclusive>0</Inconclusive>
+                                      <NotRunnable>0</NotRunnable>
+                                      <Skipped>0</Skipped>
+                                      <Ignored>0</Ignored>
+                                      <Time />
+                                      <Message>Test successful
+
+Execution time: 0.00ms</Message>
+                                      <ConsoleOutput />
+                                      <ConsoleError />
+                                    </UnitTestResult>
+                                    <UnitTestResult>
+                                      <TestDate>2015-11-09T15:16:13</TestDate>
+                                      <Passed>1</Passed>
+                                      <Errors>0</Errors>
+                                      <Failures>0</Failures>
+                                      <Inconclusive>0</Inconclusive>
+                                      <NotRunnable>0</NotRunnable>
+                                      <Skipped>0</Skipped>
+                                      <Ignored>0</Ignored>
+                                      <Time />
+                                      <Message>Test successful
+
+Execution time: 0.00ms</Message>
+                                      <ConsoleOutput />
+                                      <ConsoleError />
+                                    </UnitTestResult>
+                                    <UnitTestResult>
+                                      <TestDate>2015-11-09T15:18:52</TestDate>
+                                      <Passed>1</Passed>
+                                      <Errors>0</Errors>
+                                      <Failures>0</Failures>
+                                      <Inconclusive>0</Inconclusive>
+                                      <NotRunnable>0</NotRunnable>
+                                      <Skipped>0</Skipped>
+                                      <Ignored>0</Ignored>
+                                      <Time />
+                                      <Message>Test successful
+
+Execution time: 0.00ms</Message>
+                                      <ConsoleOutput />
+                                      <ConsoleError />
+                                    </UnitTestResult>
+                                    <UnitTestResult>
+                                      <TestDate>2015-11-09T15:21:33</TestDate>
+                                      <Passed>1</Passed>
+                                      <Errors>0</Errors>
+                                      <Failures>0</Failures>
+                                      <Inconclusive>0</Inconclusive>
+                                      <NotRunnable>0</NotRunnable>
+                                      <Skipped>0</Skipped>
+                                      <Ignored>0</Ignored>
+                                      <Time />
+                                      <Message>Test successful
+
+Execution time: 0.00ms</Message>
+                                      <ConsoleOutput />
+                                      <ConsoleError />
+                                    </UnitTestResult>
+                                  </Results>
+                                  <Tests />
+                                </TestRecord>
+                              </Tests>
+                            </TestRecord>
+                            <TestRecord Name="PropertyFileReaderTest">
+                              <Results>
+                                <UnitTestResult>
+                                  <TestDate>2015-11-09T14:55:36</TestDate>
+                                  <Passed>0</Passed>
+                                  <Errors>1</Errors>
+                                  <Failures>0</Failures>
+                                  <Inconclusive>0</Inconclusive>
+                                  <NotRunnable>0</NotRunnable>
+                                  <Skipped>0</Skipped>
+                                  <Ignored>0</Ignored>
+                                  <Time />
+                                  <Message>One or more child tests had errors</Message>
+                                </UnitTestResult>
+                                <UnitTestResult>
+                                  <TestDate>2015-11-09T14:59:49</TestDate>
+                                  <Passed>0</Passed>
+                                  <Errors>1</Errors>
+                                  <Failures>0</Failures>
+                                  <Inconclusive>0</Inconclusive>
+                                  <NotRunnable>0</NotRunnable>
+                                  <Skipped>0</Skipped>
+                                  <Ignored>0</Ignored>
+                                  <Time />
+                                  <Message>One or more child tests had errors</Message>
+                                </UnitTestResult>
+                                <UnitTestResult>
+                                  <TestDate>2015-11-09T15:00:35</TestDate>
+                                  <Passed>0</Passed>
+                                  <Errors>1</Errors>
+                                  <Failures>0</Failures>
+                                  <Inconclusive>0</Inconclusive>
+                                  <NotRunnable>0</NotRunnable>
+                                  <Skipped>0</Skipped>
+                                  <Ignored>0</Ignored>
+                                  <Time />
+                                  <Message>One or more child tests had errors</Message>
+                                </UnitTestResult>
+                              </Results>
+                              <Tests>
+                                <TestRecord Name="LoadPropertiesTest">
+                                  <Results>
+                                    <UnitTestResult>
+                                      <TestDate>2015-11-09T14:55:36</TestDate>
+                                      <Passed>0</Passed>
+                                      <Errors>1</Errors>
+                                      <Failures>0</Failures>
+                                      <Inconclusive>0</Inconclusive>
+                                      <NotRunnable>0</NotRunnable>
+                                      <Skipped>0</Skipped>
+                                      <Ignored>0</Ignored>
+                                      <Time />
+                                      <Message>System.IO.DirectoryNotFoundException : Could not find a part of the path 'E:\Chimera\workspace\AdNetwork\AdClient\AdClientSDK\Managed\AdClientSDKManaged\AdClientSDKManagedTest\bin\Resources\values.txt'.</Message>
+                                      <StackTrace>   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.StreamReader..ctor(String path, Encoding encoding, Boolean detectEncodingFromByteOrderMarks, Int32 bufferSize, Boolean checkHost)
+   at System.IO.StreamReader..ctor(String path, Encoding encoding, Boolean detectEncodingFromByteOrderMarks, Int32 bufferSize)
+   at System.IO.StreamReader..ctor(String path, Encoding encoding)
+   at System.IO.File.InternalReadAllLines(String path, Encoding encoding)
+   at co.chimeralabs.ads.managed.Utils.PropertyFileReader.LoadProperties(String filePath) in e:\Chimera\workspace\AdNetwork\AdClient\AdClientSDK\Managed\AdClientSDKManaged\AdClientSDKManaged\Utils\PropertyFileReader.cs:line 11
+   at co.chimeralabs.ads.managed.test.Utils.PropertyFileReaderTest.LoadPropertiesTest() in e:\Chimera\workspace\AdNetwork\AdClient\AdClientSDK\Managed\AdClientSDKManaged\AdClientSDKManagedTest\Utils\PropertyFileReaderTest.cs:line 13</StackTrace>
+                                      <ConsoleOutput />
+                                      <ConsoleError />
+                                    </UnitTestResult>
+                                    <UnitTestResult>
+                                      <TestDate>2015-11-09T14:59:49</TestDate>
+                                      <Passed>0</Passed>
+                                      <Errors>1</Errors>
+                                      <Failures>0</Failures>
+                                      <Inconclusive>0</Inconclusive>
+                                      <NotRunnable>0</NotRunnable>
+                                      <Skipped>0</Skipped>
+                                      <Ignored>0</Ignored>
+                                      <Time />
+                                      <Message>System.IO.DirectoryNotFoundException : Could not find a part of the path 'E:\Chimera\workspace\AdNetwork\AdClient\AdClientSDK\Managed\AdClientSDKManaged\AdClientSDKManagedTest\bin\Resources\values.txt'.</Message>
+                                      <StackTrace>   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.StreamReader..ctor(String path, Encoding encoding, Boolean detectEncodingFromByteOrderMarks, Int32 bufferSize, Boolean checkHost)
+   at System.IO.StreamReader..ctor(String path, Encoding encoding, Boolean detectEncodingFromByteOrderMarks, Int32 bufferSize)
+   at System.IO.StreamReader..ctor(String path, Encoding encoding)
+   at System.IO.File.InternalReadAllLines(String path, Encoding encoding)
+   at co.chimeralabs.ads.managed.Utils.PropertyFileReader.LoadProperties(String filePath) in e:\Chimera\workspace\AdNetwork\AdClient\AdClientSDK\Managed\AdClientSDKManaged\AdClientSDKManaged\Utils\PropertyFileReader.cs:line 11
+   at co.chimeralabs.ads.managed.test.Utils.PropertyFileReaderTest.LoadPropertiesTest() in e:\Chimera\workspace\AdNetwork\AdClient\AdClientSDK\Managed\AdClientSDKManaged\AdClientSDKManagedTest\Utils\PropertyFileReaderTest.cs:line 13</StackTrace>
+                                      <ConsoleOutput />
+                                      <ConsoleError />
+                                    </UnitTestResult>
+                                    <UnitTestResult>
+                                      <TestDate>2015-11-09T15:00:35</TestDate>
+                                      <Passed>0</Passed>
+                                      <Errors>1</Errors>
+                                      <Failures>0</Failures>
+                                      <Inconclusive>0</Inconclusive>
+                                      <NotRunnable>0</NotRunnable>
+                                      <Skipped>0</Skipped>
+                                      <Ignored>0</Ignored>
+                                      <Time />
+                                      <Message>System.IO.DirectoryNotFoundException : Could not find a part of the path 'E:\Chimera\workspace\AdNetwork\AdClient\AdClientSDK\Managed\AdClientSDKManaged\AdClientSDKManagedTest\bin\Resources\values.txt'.</Message>
+                                      <StackTrace>   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.StreamReader..ctor(String path, Encoding encoding, Boolean detectEncodingFromByteOrderMarks, Int32 bufferSize, Boolean checkHost)
+   at System.IO.StreamReader..ctor(String path, Encoding encoding, Boolean detectEncodingFromByteOrderMarks, Int32 bufferSize)
+   at System.IO.StreamReader..ctor(String path, Encoding encoding)
+   at System.IO.File.InternalReadAllLines(String path, Encoding encoding)
+   at co.chimeralabs.ads.managed.Utils.PropertyFileReader.LoadProperties(String filePath) in e:\Chimera\workspace\AdNetwork\AdClient\AdClientSDK\Managed\AdClientSDKManaged\AdClientSDKManaged\Utils\PropertyFileReader.cs:line 11
+   at co.chimeralabs.ads.managed.test.Utils.PropertyFileReaderTest.LoadPropertiesTest() in e:\Chimera\workspace\AdNetwork\AdClient\AdClientSDK\Managed\AdClientSDKManaged\AdClientSDKManagedTest\Utils\PropertyFileReaderTest.cs:line 13</StackTrace>
+                                      <ConsoleOutput />
+                                      <ConsoleError />
+                                    </UnitTestResult>
+                                  </Results>
+                                </TestRecord>
+                              </Tests>
+                            </TestRecord>
+                          </Tests>
+                        </TestRecord>
+                        <TestRecord Name="ImageTextureAdClientTest">
+                          <Results>
+                            <UnitTestResult>
+                              <TestDate>2015-11-09T14:55:36</TestDate>
+                              <Passed>0</Passed>
+                              <Errors>1</Errors>
+                              <Failures>0</Failures>
+                              <Inconclusive>0</Inconclusive>
+                              <NotRunnable>0</NotRunnable>
+                              <Skipped>0</Skipped>
+                              <Ignored>0</Ignored>
+                              <Time />
+                              <Message>One or more child tests had errors</Message>
+                            </UnitTestResult>
+                            <UnitTestResult>
+                              <TestDate>2015-11-09T14:59:49</TestDate>
+                              <Passed>1</Passed>
+                              <Errors>0</Errors>
+                              <Failures>0</Failures>
+                              <Inconclusive>0</Inconclusive>
+                              <NotRunnable>0</NotRunnable>
+                              <Skipped>0</Skipped>
+                              <Ignored>0</Ignored>
+                              <Time />
+                              <Message>Test successful
+
+Execution time: 3.96ms</Message>
+                            </UnitTestResult>
+                            <UnitTestResult>
+                              <TestDate>2015-11-09T15:00:35</TestDate>
+                              <Passed>1</Passed>
+                              <Errors>0</Errors>
+                              <Failures>0</Failures>
+                              <Inconclusive>0</Inconclusive>
+                              <NotRunnable>0</NotRunnable>
+                              <Skipped>0</Skipped>
+                              <Ignored>0</Ignored>
+                              <Time />
+                              <Message>Test successful
+
+Execution time: 3.54ms</Message>
+                            </UnitTestResult>
+                            <UnitTestResult>
+                              <TestDate>2015-11-09T15:01:30</TestDate>
+                              <Passed>1</Passed>
+                              <Errors>0</Errors>
+                              <Failures>0</Failures>
+                              <Inconclusive>0</Inconclusive>
+                              <NotRunnable>0</NotRunnable>
+                              <Skipped>0</Skipped>
+                              <Ignored>0</Ignored>
+                              <Time />
+                              <Message>Test successful
+
+Execution time: 3.54ms</Message>
+                            </UnitTestResult>
+                            <UnitTestResult>
+                              <TestDate>2015-11-09T15:02:11</TestDate>
+                              <Passed>1</Passed>
+                              <Errors>0</Errors>
+                              <Failures>0</Failures>
+                              <Inconclusive>0</Inconclusive>
+                              <NotRunnable>0</NotRunnable>
+                              <Skipped>0</Skipped>
+                              <Ignored>0</Ignored>
+                              <Time />
+                              <Message>Test successful
+
+Execution time: 3.54ms</Message>
+                            </UnitTestResult>
+                            <UnitTestResult>
+                              <TestDate>2015-11-09T15:16:13</TestDate>
+                              <Passed>1</Passed>
+                              <Errors>0</Errors>
+                              <Failures>0</Failures>
+                              <Inconclusive>0</Inconclusive>
+                              <NotRunnable>0</NotRunnable>
+                              <Skipped>0</Skipped>
+                              <Ignored>0</Ignored>
+                              <Time />
+                              <Message>Test successful
+
+Execution time: 0.41ms</Message>
+                            </UnitTestResult>
+                            <UnitTestResult>
+                              <TestDate>2015-11-09T15:18:52</TestDate>
+                              <Passed>1</Passed>
+                              <Errors>0</Errors>
+                              <Failures>0</Failures>
+                              <Inconclusive>0</Inconclusive>
+                              <NotRunnable>0</NotRunnable>
+                              <Skipped>0</Skipped>
+                              <Ignored>0</Ignored>
+                              <Time />
+                              <Message>Test successful
+
+Execution time: 0.41ms</Message>
+                            </UnitTestResult>
+                            <UnitTestResult>
+                              <TestDate>2015-11-09T15:21:33</TestDate>
+                              <Passed>1</Passed>
+                              <Errors>0</Errors>
+                              <Failures>0</Failures>
+                              <Inconclusive>0</Inconclusive>
+                              <NotRunnable>0</NotRunnable>
+                              <Skipped>0</Skipped>
+                              <Ignored>0</Ignored>
+                              <Time />
+                              <Message>Test successful
+
+Execution time: 0.42ms</Message>
+                            </UnitTestResult>
+                          </Results>
+                          <Tests>
+                            <TestRecord Name="LoadAdTest">
+                              <Results>
+                                <UnitTestResult>
+                                  <TestDate>2015-11-09T14:55:36</TestDate>
+                                  <Passed>0</Passed>
+                                  <Errors>1</Errors>
+                                  <Failures>0</Failures>
+                                  <Inconclusive>0</Inconclusive>
+                                  <NotRunnable>0</NotRunnable>
+                                  <Skipped>0</Skipped>
+                                  <Ignored>0</Ignored>
+                                  <Time />
+                                  <Message>System.ObjectDisposedException : Cannot write to a closed TextWriter.</Message>
+                                  <StackTrace>   at System.IO.StreamWriter.Flush(Boolean flushStream, Boolean flushEncoder)
+   at System.IO.StreamWriter.Write(String value)
+   at co.chimeralabs.ads.managed.Utils.Logger.Log(Object context, String lines) in e:\Chimera\workspace\AdNetwork\AdClient\AdClientSDK\Managed\AdClientSDKManaged\AdClientSDKManaged\Utils\Logger.cs:line 15
+   at co.chimeralabs.ads.managed.WebHandler..ctor(AdClient adClient) in e:\Chimera\workspace\AdNetwork\AdClient\AdClientSDK\Managed\AdClientSDKManaged\AdClientSDKManaged\WebHandler.cs:line 12
+   at co.chimeralabs.ads.managed.ImageTextureAdClient.LoadAd() in e:\Chimera\workspace\AdNetwork\AdClient\AdClientSDK\Managed\AdClientSDKManaged\AdClientSDKManaged\ImageTextureAdClient.cs:line 19
+   at co.chimeralabs.ads.managed.test.ImageTextureAdClientTest.LoadAdTest() in e:\Chimera\workspace\AdNetwork\AdClient\AdClientSDK\Managed\AdClientSDKManaged\AdClientSDKManagedTest\ImageTextureAdClientTest.cs:line 13</StackTrace>
+                                  <ConsoleOutput />
+                                  <ConsoleError />
+                                </UnitTestResult>
+                                <UnitTestResult>
+                                  <TestDate>2015-11-09T14:59:49</TestDate>
+                                  <Passed>1</Passed>
+                                  <Errors>0</Errors>
+                                  <Failures>0</Failures>
+                                  <Inconclusive>0</Inconclusive>
+                                  <NotRunnable>0</NotRunnable>
+                                  <Skipped>0</Skipped>
+                                  <Ignored>0</Ignored>
+                                  <Time />
+                                  <Message>Test successful
+
+Execution time: 3.96ms</Message>
+                                  <ConsoleOutput />
+                                  <ConsoleError />
+                                </UnitTestResult>
+                                <UnitTestResult>
+                                  <TestDate>2015-11-09T15:00:35</TestDate>
+                                  <Passed>1</Passed>
+                                  <Errors>0</Errors>
+                                  <Failures>0</Failures>
+                                  <Inconclusive>0</Inconclusive>
+                                  <NotRunnable>0</NotRunnable>
+                                  <Skipped>0</Skipped>
+                                  <Ignored>0</Ignored>
+                                  <Time />
+                                  <Message>Test successful
+
+Execution time: 3.52ms</Message>
+                                  <ConsoleOutput />
+                                  <ConsoleError />
+                                </UnitTestResult>
+                                <UnitTestResult>
+                                  <TestDate>2015-11-09T15:01:30</TestDate>
+                                  <Passed>1</Passed>
+                                  <Errors>0</Errors>
+                                  <Failures>0</Failures>
+                                  <Inconclusive>0</Inconclusive>
+                                  <NotRunnable>0</NotRunnable>
+                                  <Skipped>0</Skipped>
+                                  <Ignored>0</Ignored>
+                                  <Time />
+                                  <Message>Test successful
+
+Execution time: 3.53ms</Message>
+                                  <ConsoleOutput />
+                                  <ConsoleError />
+                                </UnitTestResult>
+                                <UnitTestResult>
+                                  <TestDate>2015-11-09T15:02:11</TestDate>
+                                  <Passed>1</Passed>
+                                  <Errors>0</Errors>
+                                  <Failures>0</Failures>
+                                  <Inconclusive>0</Inconclusive>
+                                  <NotRunnable>0</NotRunnable>
+                                  <Skipped>0</Skipped>
+                                  <Ignored>0</Ignored>
+                                  <Time />
+                                  <Message>Test successful
+
+Execution time: 3.54ms</Message>
+                                  <ConsoleOutput />
+                                  <ConsoleError />
+                                </UnitTestResult>
+                                <UnitTestResult>
+                                  <TestDate>2015-11-09T15:16:13</TestDate>
+                                  <Passed>1</Passed>
+                                  <Errors>0</Errors>
+                                  <Failures>0</Failures>
+                                  <Inconclusive>0</Inconclusive>
+                                  <NotRunnable>0</NotRunnable>
+                                  <Skipped>0</Skipped>
+                                  <Ignored>0</Ignored>
+                                  <Time />
+                                  <Message>Test successful
+
+Execution time: 0.40ms</Message>
+                                  <ConsoleOutput />
+                                  <ConsoleError />
+                                </UnitTestResult>
+                                <UnitTestResult>
+                                  <TestDate>2015-11-09T15:18:52</TestDate>
+                                  <Passed>1</Passed>
+                                  <Errors>0</Errors>
+                                  <Failures>0</Failures>
+                                  <Inconclusive>0</Inconclusive>
+                                  <NotRunnable>0</NotRunnable>
+                                  <Skipped>0</Skipped>
+                                  <Ignored>0</Ignored>
+                                  <Time />
+                                  <Message>Test successful
+
+Execution time: 0.40ms</Message>
+                                  <ConsoleOutput />
+                                  <ConsoleError />
+                                </UnitTestResult>
+                                <UnitTestResult>
+                                  <TestDate>2015-11-09T15:21:33</TestDate>
+                                  <Passed>1</Passed>
+                                  <Errors>0</Errors>
+                                  <Failures>0</Failures>
+                                  <Inconclusive>0</Inconclusive>
+                                  <NotRunnable>0</NotRunnable>
+                                  <Skipped>0</Skipped>
+                                  <Ignored>0</Ignored>
+                                  <Time />
+                                  <Message>Test successful
+
+Execution time: 0.41ms</Message>
+                                  <ConsoleOutput />
+                                  <ConsoleError />
+                                </UnitTestResult>
+                              </Results>
+                            </TestRecord>
+                          </Tests>
+                        </TestRecord>
+                      </Tests>
+                    </TestRecord>
+                  </Tests>
+                </TestRecord>
+              </Tests>
+            </TestRecord>
+          </Tests>
+        </TestRecord>
+      </Tests>
+    </TestRecord>
+  </Tests>
+</TestRecord>

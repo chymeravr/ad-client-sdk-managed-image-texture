@@ -1,0 +1,1 @@
+E:\Chimera\workspace\AdNetwork\AdClient\AdClientSDK\Managed\AdClientSDKManaged\AdClientSDKManagedTest\obj\Debug\AdClientSDKManagedTest.csprojResolveAssemblyReference.cache

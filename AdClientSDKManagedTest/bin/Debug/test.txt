@@ -1,0 +1,12 @@
+11/9/2015 12:00:00 AM	(co.chimeralabs.ads.managed.ImageTextureAdClient)	LoadAd: Entered
+11/9/2015 12:00:00 AM	(co.chimeralabs.ads.managed.WebHandler)	WebHandler: Entered
+11/9/2015 12:00:00 AM	(co.chimeralabs.ads.managed.test.Utils.LoggerTest)	hey there
+11/9/2015 12:00:00 AM	(co.chimeralabs.ads.managed.ImageTextureAdClient)	LoadAd: Entered
+11/9/2015 12:00:00 AM	(co.chimeralabs.ads.managed.WebHandler)	WebHandler: Entered
+11/9/2015 12:00:00 AM	(co.chimeralabs.ads.managed.test.Utils.LoggerTest)	hey there
+11/9/2015 12:00:00 AM	(co.chimeralabs.ads.managed.ImageTextureAdClient)	LoadAd: Entered
+11/9/2015 12:00:00 AM	(co.chimeralabs.ads.managed.WebHandler)	WebHandler: Entered
+11/9/2015 12:00:00 AM	(co.chimeralabs.ads.managed.test.Utils.LoggerTest)	hey there
+11/9/2015 12:00:00 AM	(co.chimeralabs.ads.managed.ImageTextureAdClient)	LoadAd: Entered
+11/9/2015 12:00:00 AM	(co.chimeralabs.ads.managed.WebHandler)	WebHandler: Entered
+11/9/2015 12:00:00 AM	(co.chimeralabs.ads.managed.test.Utils.LoggerTest)	hey there

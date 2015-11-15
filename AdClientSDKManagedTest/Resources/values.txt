@@ -1,0 +1,1 @@
+adrequesturl=http://localhost:8080/virtualadserver
