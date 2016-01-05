@@ -13,7 +13,7 @@ namespace co.chimeralabs.ads.managed.Models
 	public class AdResponse
 	{
         public String resourceURL { get; set; }
-        public String resourceMetadata { get; set; }
+        public String errorMsg { get; set; }
         public int resourceErrorCode { get; set; }
 	}
 }
