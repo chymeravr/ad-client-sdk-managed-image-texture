@@ -8,8 +8,9 @@ namespace AdClientSDKManagedTestConsole
 		{
 			Console.WriteLine ("Hello World!");
             AdListenerImplementation adListenerImplementation = new AdListenerImplementation();
-			ImageTextureAdService adClient = new ImageTextureAdService (adListenerImplementation, "asdfadfd");
+			ImageTextureAd adClient = new ImageTextureAd (adListenerImplementation, "asdfadfd");
 			adClient.LoadAd ();
+            AnalyticsWebManagerTest.Test1();
             Console.ReadLine();
 		}
 	}
@@ -18,13 +19,14 @@ namespace AdClientSDKManagedTestConsole
     {
         public void OnAdLoadFailed(AdLoadFailedArgs args)
         {
-            String test = "test";
+			Console.WriteLine ("Ad Load Failed %s", args.getErrorMessage ());
         }
         public void OnAdLoaded(Object context)
         {
-            ImageTextureAdService client = (ImageTextureAdService)context;
+            ImageTextureAd client = (ImageTextureAd)context;
             String test = "test";
             byte[] data = client.getImageData();
+			Console.WriteLine ("adLoadFinished");
         }
     }
 }

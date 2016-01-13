@@ -35,13 +35,14 @@
   <ItemGroup>
     <Compile Include="Main.cs" />
     <Compile Include="AssemblyInfo.cs" />
+    <Compile Include="AnalyticsWebManagerTest.cs" />
   </ItemGroup>
   <ItemGroup>
     <WCFMetadata Include="Service References\" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\AdClientSDKManaged\AdClientSDKManaged.csproj">
-      <Project>{39264fa2-22bd-4479-9537-96d749ba55a4}</Project>
+      <Project>{39264FA2-22BD-4479-9537-96D749BA55A4}</Project>
       <Name>AdClientSDKManaged</Name>
     </ProjectReference>
   </ItemGroup>

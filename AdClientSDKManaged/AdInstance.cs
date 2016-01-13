@@ -8,17 +8,45 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 using System;
+using co.chimeralabs.ads.managed.Models;
+
 namespace co.chimeralabs.ads.managed
 {
 	public class AdInstance
 	{
 		private String instanceId;
-		public AdInstance (String instanceId)
+		private String adId;
+		private long startTime;
+		private long lastTime;
+		private Boolean isInstancedDisplayed = false;
+		public AdInstance (String instanceId, String adId)
 		{
 			this.instanceId = instanceId;
+            this.adId = adId;
+			startTime = DateTime.Now.Ticks / TimeSpan.TicksPerMillisecond;
+			lastTime = 0;
+            AnalyticsWebManager.Push(new InstanceEventDTO(this.adId, this.instanceId, InstanceEventDTO.EventType.AdAttachedToInstance, ""), AnalyticsWebWrapperDTO.Action.InstanceEvent, AnalyticsWebManager.PRIORITY.HIGH);
 		}
-		public String getInstanceId(){
+		public String GetInstanceId(){
 			return this.instanceId;
+		}
+		public String GetAdId(){
+			return this.adId;
+		}
+		public void UpdateVisibilityMetric(float cameraLookAtX, float cameraLookAtY, float cameraLookAtZ, float cameraX, float cameraY, float cameraZ, float adObjectX, float adObjectY, float adObjectZ){
+			long newTime = DateTime.Now.Ticks / TimeSpan.TicksPerMillisecond - startTime;
+			if ((newTime - lastTime) > AnalyticsWebManager.timeResolution) {
+				lastTime = newTime;
+                InstanceVisibilityMetricDTO dtoObj = new InstanceVisibilityMetricDTO(this.adId, this.instanceId, newTime, cameraLookAtX, cameraLookAtY, cameraLookAtZ, cameraX, cameraY, cameraZ, adObjectX, adObjectY, adObjectZ);
+                AnalyticsWebManager.Push(dtoObj, AnalyticsWebWrapperDTO.Action.AdInstanceVisibilityMetricUpdate, AnalyticsWebManager.PRIORITY.LOW);
+			}
+		}
+		public void MarkInstanceDisplayedTrue(){
+			isInstancedDisplayed = true;
+			AnalyticsWebManager.Push(new InstanceEventDTO(this.adId, this.instanceId, InstanceEventDTO.EventType.InstanceDisplayed, ""), AnalyticsWebWrapperDTO.Action.InstanceEvent, AnalyticsWebManager.PRIORITY.HIGH);
+		}
+		public Boolean IsInstanceDisplayed(){
+			return this.isInstancedDisplayed;
 		}
 	}
 }

@@ -7,7 +7,7 @@ using co.chimeralabs.ads.managed.Utils;
 
 namespace co.chimeralabs.ads.managed
 {
-	public class ImageTextureAdService
+	public class ImageTextureAd
 	{
         private String adRequestURIString = "http://chimeralabs.cloudapp.net/adserver/publisher/api/loadad";
         private Uri adRequestURI;
@@ -17,15 +17,17 @@ namespace co.chimeralabs.ads.managed
         private byte[] imageData;
 		private Hashtable instances = new Hashtable();
 
-		public ImageTextureAdService (AdListener adListener, String adId)
+		public ImageTextureAd (AdListener adListener, String adId)
 		{
 			this.adId = adId;
             this.adListener = adListener;
             adRequestURI = new Uri(adRequestURIString);
 		}
 
-		public void AddInstance(AdInstance instance){
-			instances.Add (instance.getInstanceId(), instance);
+		public AdInstance CreateInstance(String instanceId){
+            AdInstance instance = new AdInstance(instanceId, this.adId);
+			instances.Add (instance.GetInstanceId(), instance);
+            return instance;
 		}
 
 		public Hashtable GetInstancesMap(){
@@ -38,13 +40,9 @@ namespace co.chimeralabs.ads.managed
 
 		public void LoadAd(){
 			Logger.Log (this, "LoadAd: Entered");
-			//AdRequest adRequest = new AdRequest ();
-			//adRequest.setAdType (AdType.ImageTexture);
 
             WebClient webClient = new WebClient();
             webClient.DownloadStringCompleted += new DownloadStringCompletedEventHandler (OnAdResponseReceived);
-            //String response = webHandler.DownloadString(uri);
-            //Console.WriteLine("response: {0}", response);
             try
             {
                 webClient.DownloadStringAsync(adRequestURI);
@@ -65,6 +63,7 @@ namespace co.chimeralabs.ads.managed
                 String errorMesage = "Request Cancelled.";
                 AdLoadFailedArgs args = new AdLoadFailedArgs(errorMesage);
                 adListener.OnAdLoadFailed(args);
+                AnalyticsWebManager.Push(new AdEventDTO(this.adId, AdEventDTO.EventType.AdMetadataLoadFailed, errorMesage), AnalyticsWebWrapperDTO.Action.AdEvent, AnalyticsWebManager.PRIORITY.HIGH);
                 return;
             }
             if (e.Error != null)
@@ -72,6 +71,7 @@ namespace co.chimeralabs.ads.managed
                 String errorMessage = e.Error.Message;
                 AdLoadFailedArgs args = new AdLoadFailedArgs(errorMessage);
                 adListener.OnAdLoadFailed(args);
+                AnalyticsWebManager.Push(new AdEventDTO(this.adId, AdEventDTO.EventType.AdMetadataLoadFailed, errorMessage), AnalyticsWebWrapperDTO.Action.AdEvent, AnalyticsWebManager.PRIORITY.HIGH);
                 return;
             }
 
@@ -81,8 +81,10 @@ namespace co.chimeralabs.ads.managed
                 String errorMessage = "Ad can't be loaded";
                 AdLoadFailedArgs args = new AdLoadFailedArgs(errorMessage);
                 adListener.OnAdLoadFailed(args);
+                AnalyticsWebManager.Push(new AdEventDTO(this.adId, AdEventDTO.EventType.AdMetadataLoadFailed, errorMessage), AnalyticsWebWrapperDTO.Action.AdEvent, AnalyticsWebManager.PRIORITY.HIGH);
                 return;
             }
+            AnalyticsWebManager.Push(new AdEventDTO(this.adId, AdEventDTO.EventType.AdMetadataLoadSuccess, ""), AnalyticsWebWrapperDTO.Action.AdEvent, AnalyticsWebManager.PRIORITY.HIGH);
 
             WebClient imageLoadWebClient = new WebClient();
             imageLoadWebClient.DownloadDataCompleted += OnImageDownloaded;
@@ -111,6 +113,7 @@ namespace co.chimeralabs.ads.managed
                 String errorMesage = "Image Load. Request Cancelled.";
                 AdLoadFailedArgs args = new AdLoadFailedArgs(errorMesage);
                 adListener.OnAdLoadFailed(args);
+                AnalyticsWebManager.Push(new AdEventDTO(this.adId, AdEventDTO.EventType.AdResourceDownloadFailed, errorMesage), AnalyticsWebWrapperDTO.Action.AdEvent, AnalyticsWebManager.PRIORITY.HIGH);
                 return;
             }
             if (e.Error != null)
@@ -118,10 +121,12 @@ namespace co.chimeralabs.ads.managed
                 String errorMessage = e.Error.Message;
                 AdLoadFailedArgs args = new AdLoadFailedArgs(errorMessage);
                 adListener.OnAdLoadFailed(args);
+                AnalyticsWebManager.Push(new AdEventDTO(this.adId, AdEventDTO.EventType.AdResourceDownloadFailed, errorMessage), AnalyticsWebWrapperDTO.Action.AdEvent, AnalyticsWebManager.PRIORITY.HIGH);
                 return;
             }
             imageData = e.Result;
             adListener.OnAdLoaded(this);
+            AnalyticsWebManager.Push(new AdEventDTO(this.adId, AdEventDTO.EventType.AdResourceDownloadSuccess, ""), AnalyticsWebWrapperDTO.Action.AdEvent, AnalyticsWebManager.PRIORITY.HIGH);
         }
 
         public byte[] getImageData()
@@ -131,4 +136,3 @@ namespace co.chimeralabs.ads.managed
 
 	}
 }
-

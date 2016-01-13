@@ -40,14 +40,19 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="AssemblyInfo.cs" />
-    <Compile Include="ImageTextureAdService.cs" />
+    <Compile Include="ImageTextureAd.cs" />
     <Compile Include="AdListener.cs" />
+    <Compile Include="Models\AdEventDTO.cs" />
     <Compile Include="Models\AdRequest.cs" />
     <Compile Include="Models\AdResponse.cs" />
     <Compile Include="Models\AdType.cs" />
+    <Compile Include="Models\AnalyticsWebWrapperDTO.cs" />
+    <Compile Include="Models\InstanceEventDTO.cs" />
+    <Compile Include="Models\InstanceVisibilityMetricDTO.cs" />
     <Compile Include="Utils\PropertyFileReader.cs" />
     <Compile Include="Utils\Logger.cs" />
     <Compile Include="AdInstance.cs" />
+    <Compile Include="AnalyticsWebManager.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
 </Project>
