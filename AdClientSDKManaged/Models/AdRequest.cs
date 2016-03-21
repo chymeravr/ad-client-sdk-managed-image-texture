@@ -12,13 +12,21 @@ namespace co.chimeralabs.ads.managed.Models
 {
 	public class AdRequest
 	{
-		private AdType adType;
-		public AdType getAdType(){
-			return this.adType;
-		}
-		public void setAdType(AdType adType){
-			this.adType = adType;
-		}
+		public AdType adType{get; set;}
+        public String adUnitId { get; set; }
+        public int nDistinctAds { get; set; }
+        public AdRequest()
+        {
+
+        }
+
+        public AdRequest(AdType adType, String adUnitId, int nDistinctAds)
+        {
+            this.adType = adType;
+            this.adUnitId = adUnitId;
+            this.nDistinctAds = nDistinctAds;
+        }
+
 	}
 }
 

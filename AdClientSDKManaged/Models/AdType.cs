@@ -1,3 +1,3 @@
 public enum AdType{
-	ImageTexture = 1
+	IMAGE_TEXTURE
 }

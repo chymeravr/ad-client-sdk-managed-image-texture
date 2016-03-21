@@ -8,13 +8,14 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 using System;
+using System.Collections.Generic;
 namespace co.chimeralabs.ads.managed.Models
 {
 	public class AdResponse
 	{
-        public String resourceURL { get; set; }
-        public String errorMsg { get; set; }
-        public int resourceErrorCode { get; set; }
+        public List<AdResourceMetadata> adResources { set; get; }
+        public String adUnitId { set; get; }
+        public int errorCode { set; get; }
+        public String errorMsg { set; get; }
 	}
 }
-

@@ -1,10 +1,10 @@
 E:\Chimera\workspace\AdNetwork\AdClient\AdClientSDK\Managed\AdClientSDKManaged\AdClientSDKManagedTestConsole\obj\Debug\AdClientSDKManagedTestConsole.csprojResolveAssemblyReference.cache
 E:\Chimera\workspace\AdNetwork\AdClient\AdClientSDK\Managed\AdClientSDKManaged\AdClientSDKManagedTestConsole\bin\Debug\AdClientSDKManagedTestConsole.exe
 E:\Chimera\workspace\AdNetwork\AdClient\AdClientSDK\Managed\AdClientSDKManaged\AdClientSDKManagedTestConsole\bin\Debug\AdClientSDKManagedTestConsole.pdb
-E:\Chimera\workspace\AdNetwork\AdClient\AdClientSDK\Managed\AdClientSDKManaged\AdClientSDKManagedTestConsole\bin\Debug\AdClientSDKManaged.dll
-E:\Chimera\workspace\AdNetwork\AdClient\AdClientSDK\Managed\AdClientSDKManaged\AdClientSDKManagedTestConsole\bin\Debug\AdClientSDKManaged.pdb
 E:\Chimera\workspace\AdNetwork\AdClient\AdClientSDK\Managed\AdClientSDKManaged\AdClientSDKManagedTestConsole\obj\Debug\AdClientSDKManagedTestConsole.exe
 E:\Chimera\workspace\AdNetwork\AdClient\AdClientSDK\Managed\AdClientSDKManaged\AdClientSDKManagedTestConsole\obj\Debug\AdClientSDKManagedTestConsole.pdb
+E:\Chimera\workspace\AdNetwork\AdClient\AdClientSDK\Managed\AdClientSDKManaged\AdClientSDKManagedTestConsole\bin\Debug\AdClientSDKManaged.dll
 E:\Chimera\workspace\AdNetwork\AdClient\AdClientSDK\Managed\AdClientSDKManaged\AdClientSDKManagedTestConsole\bin\Debug\Newtonsoft.Json.dll
+E:\Chimera\workspace\AdNetwork\AdClient\AdClientSDK\Managed\AdClientSDKManaged\AdClientSDKManagedTestConsole\bin\Debug\AdClientSDKManaged.pdb
 E:\Chimera\workspace\AdNetwork\AdClient\AdClientSDK\Managed\AdClientSDKManaged\AdClientSDKManagedTestConsole\bin\Debug\Newtonsoft.Json.pdb
 E:\Chimera\workspace\AdNetwork\AdClient\AdClientSDK\Managed\AdClientSDKManaged\AdClientSDKManagedTestConsole\bin\Debug\Newtonsoft.Json.xml
