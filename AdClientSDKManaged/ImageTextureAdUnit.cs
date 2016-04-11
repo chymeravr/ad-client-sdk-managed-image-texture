@@ -7,6 +7,7 @@ using Newtonsoft.Json;
 using co.chimeralabs.ads.managed.Models;
 using co.chimeralabs.ads.managed.Utils;
 using co.chimeralabs.ads.managed.Internal;
+using co.chimeralabs.analytics.managed;
 
 namespace co.chimeralabs.ads.managed
 {
@@ -73,7 +74,7 @@ namespace co.chimeralabs.ads.managed
                 String errorMesage = "Request Cancelled.";
                 AdUnitFailedArgs args = new AdUnitFailedArgs(AdUnitFailedArgs.ErrorCode.NO_AD_LOADED, errorMesage, this.adUnitId);
                 adUnitListener.OnAdUnitLoadFailed(args);
-                AnalyticsWebManager.Push(new AdEventDTO(this.adUnitId, AdEventDTO.EventType.AdMetadataLoadFailed, errorMesage), AnalyticsWebWrapperDTO.Action.AdEvent, AnalyticsWebManager.PRIORITY.HIGH);
+                //AnalyticsWebManager.Push(new AdEventDTO(this.adUnitId, AdEventDTO.EventType.AdMetadataLoadFailed, errorMesage), AnalyticsWebWrapperDTO.Action.AdEvent, AnalyticsWebManager.PRIORITY.HIGH);
                 return;
             }
             if (e.Error != null)
@@ -81,7 +82,7 @@ namespace co.chimeralabs.ads.managed
                 String errorMessage = e.Error.Message;
                 AdUnitFailedArgs args = new AdUnitFailedArgs(AdUnitFailedArgs.ErrorCode.NO_AD_LOADED, errorMessage, this.adUnitId);
                 adUnitListener.OnAdUnitLoadFailed(args);
-                AnalyticsWebManager.Push(new AdEventDTO(this.adUnitId, AdEventDTO.EventType.AdMetadataLoadFailed, errorMessage), AnalyticsWebWrapperDTO.Action.AdEvent, AnalyticsWebManager.PRIORITY.HIGH);
+                //AnalyticsWebManager.Push(new AdEventDTO(this.adUnitId, AdEventDTO.EventType.AdMetadataLoadFailed, errorMessage), AnalyticsWebWrapperDTO.Action.AdEvent, AnalyticsWebManager.PRIORITY.HIGH);
                 return;
             }
             AdResponse adResponse = JsonConvert.DeserializeObject<AdResponse>(e.Result);
@@ -90,10 +91,10 @@ namespace co.chimeralabs.ads.managed
                 String errorMessage = adResponse.errorMsg;
                 AdUnitFailedArgs args = new AdUnitFailedArgs(AdUnitFailedArgs.ErrorCode.NO_AD_LOADED, errorMessage, this.adUnitId);
                 adUnitListener.OnAdUnitLoadFailed(args);
-                AnalyticsWebManager.Push(new AdEventDTO(this.adUnitId, AdEventDTO.EventType.AdMetadataLoadFailed, errorMessage), AnalyticsWebWrapperDTO.Action.AdEvent, AnalyticsWebManager.PRIORITY.HIGH);
+                //AnalyticsWebManager.Push(new AdEventDTO(this.adUnitId, AdEventDTO.EventType.AdMetadataLoadFailed, errorMessage), AnalyticsWebWrapperDTO.Action.AdEvent, AnalyticsWebManager.PRIORITY.HIGH);
                 return;
             }
-            AnalyticsWebManager.Push(new AdEventDTO(this.adUnitId, AdEventDTO.EventType.AdMetadataLoadSuccess, ""), AnalyticsWebWrapperDTO.Action.AdEvent, AnalyticsWebManager.PRIORITY.HIGH);
+            //AnalyticsWebManager.Push(new AdEventDTO(this.adUnitId, AdEventDTO.EventType.AdMetadataLoadSuccess, ""), AnalyticsWebWrapperDTO.Action.AdEvent, AnalyticsWebManager.PRIORITY.HIGH);
 
             /**
              * Analyzing individual ads in the response
@@ -171,6 +172,8 @@ namespace co.chimeralabs.ads.managed
             ImageTextureAdInstance instance = new ImageTextureAdInstance(instanceId, ads[adIndex], adObject);
             instances.Add(instance.GetInstanceId(), instance);
             adIndex = (adIndex + 1) % ads.Count;
+            AppParams param = AdConfigurer.GetAppParams();
+            AnalyticsManager.Push(new AdServedLog(param.userId, this.adUnitId, instance.GetAdServingId(), instanceId), AnalyticsManager.TYPE.AD_DISPLAYED, AnalyticsManager.PRIORITY.MEDIUM);
             return instance;
         }
 

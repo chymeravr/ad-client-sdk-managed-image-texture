@@ -7,6 +7,8 @@ namespace AdClientSDKManagedTestConsole
 		public static void Main (string[] args)
 		{
 			Console.WriteLine ("Hello World!");
+            AdConfigurer.Startup(new PlatformPCWindowsImpl());
+            PlatformVariableTest.Test1();
             /*AdListenerImplementation adListenerImplementation = new AdListenerImplementation();
 			ImageTextureAd adClient = new ImageTextureAd (adListenerImplementation, "asdfadfd");
 			adClient.LoadAds (2);
@@ -15,7 +17,9 @@ namespace AdClientSDKManagedTestConsole
             AdListenerImplementation adListener = new AdListenerImplementation();
             ImageTextureAdUnit adUnit = new ImageTextureAdUnit(adListener, "adsfd");
             adUnit.LoadAds(2);
+            SystemInfoTest.TestHardwareInfo();
             //AnalyticsWebManagerTest.Test1();
+			AdConfigurer.Shutdown ();
             Console.ReadLine();
 		}
 	}

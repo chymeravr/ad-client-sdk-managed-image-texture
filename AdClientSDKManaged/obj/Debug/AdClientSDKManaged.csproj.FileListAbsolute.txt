@@ -8,3 +8,5 @@ E:\Chimera\workspace\AdNetwork\AdClient\AdClientSDK\Managed\AdClientSDKManaged\A
 E:\Chimera\workspace\AdNetwork\AdClient\AdClientSDK\Managed\AdClientSDKManaged\AdClientSDKManaged\bin\Debug\UnityEngine.dll
 E:\Chimera\workspace\AdNetwork\AdClient\AdClientSDK\Managed\AdClientSDKManaged\AdClientSDKManaged\bin\Debug\UnityEngine.xml
 E:\Chimera\workspace\AdNetwork\AdClient\AdClientSDK\Managed\AdClientSDKManaged\AdClientSDKManaged\obj\Debug\AdClientSDKManaged.csprojResolveAssemblyReference.cache
+E:\Chimera\workspace\AdNetwork\AdClient\AdClientSDK\Managed\AdClientSDKManaged\AdClientSDKManaged\bin\Debug\AnalyticsSDKManaged.dll
+E:\Chimera\workspace\AdNetwork\AdClient\AdClientSDK\Managed\AdClientSDKManaged\AdClientSDKManaged\bin\Debug\AnalyticsSDKManaged.pdb

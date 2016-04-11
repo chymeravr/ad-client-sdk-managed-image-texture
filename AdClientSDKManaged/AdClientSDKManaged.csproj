@@ -37,10 +37,14 @@
     <Reference Include="Newtonsoft.Json">
       <HintPath>C:\Users\chimeralabs\Downloads\Json70r1\Bin\Net20\Newtonsoft.Json.dll</HintPath>
     </Reference>
+    <Reference Include="AnalyticsSDKManaged">
+      <HintPath>..\..\..\..\..\AnalyticsModule\client\AnalyticsSDKManaged\AnalyticsSDKManaged\bin\Debug\AnalyticsSDKManaged.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="IPlatform.cs" />
     <Compile Include="IAdObject.cs" />
-    <Compile Include="PlatformObjectsFactoryHolder.cs" />
     <Compile Include="IPlatformObjectsFactory.cs" />
     <Compile Include="ITexture.cs" />
     <Compile Include="Internal\InternalAdListener.cs" />
@@ -50,18 +54,22 @@
     <Compile Include="AssemblyInfo.cs" />
     <Compile Include="ImageTextureAdUnit.cs" />
     <Compile Include="AdUnitListener.cs" />
-    <Compile Include="Models\AdEventDTO.cs" />
+    <Compile Include="Models\AdServedLog.cs" />
+    <Compile Include="Models\AppParams.cs" />
     <Compile Include="Models\AdRequest.cs" />
     <Compile Include="Models\AdResourceMetadata.cs" />
     <Compile Include="Models\AdResponse.cs" />
     <Compile Include="Models\AdType.cs" />
-    <Compile Include="Models\AnalyticsWebWrapperDTO.cs" />
-    <Compile Include="Models\InstanceEventDTO.cs" />
+    <Compile Include="Models\InstanceParamsUpdateLog.cs" />
     <Compile Include="Models\InstanceVisibilityMetricDTO.cs" />
+    <Compile Include="HardwareInfo.cs" />
+    <Compile Include="PlatformObjectsFactoryHolder.cs" />
+    <Compile Include="Utils\UtilityMethods.cs" />
     <Compile Include="Utils\PropertyFileReader.cs" />
     <Compile Include="Utils\Logger.cs" />
     <Compile Include="AdInstance.cs" />
-    <Compile Include="AnalyticsWebManager.cs" />
+    <Compile Include="AdConfigurer.cs" />
+    <Compile Include="PlatformPCWindowsImpl__Backup.cs" />
   </ItemGroup>
   <ItemGroup />
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />

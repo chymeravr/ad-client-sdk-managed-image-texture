@@ -1,14 +1,9 @@
 ﻿<Properties>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="AdClientSDKManaged\ImageTextureAdUnit.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="e:\Chimera\workspace\AdNetwork\AdClient\AdClientSDK\Managed\AdClientSDKManaged\AdClientSDKManaged\ImageTextureAdUnit.cs">
     <Files>
-      <File FileName="..\..\..\AdUnity\Assets\ChimeraVirtualAds\AdCreationScript.cs" Line="42" Column="18" />
-      <File FileName="..\..\..\AdUnity\Assets\ChimeraVirtualAds\AdManager.cs" Line="1" Column="1" />
-      <File FileName="..\..\..\AdUnity\Assets\ChimeraVirtualAds\PlatformObjectsFactoryUnity.cs" Line="1" Column="1" />
-      <File FileName="..\..\..\AdUnity\Assets\ChimeraVirtualAds\ImageTextureAdInstanceUnity.cs" Line="1" Column="1" />
-      <File FileName="e:\Chimera\workspace\AdNetwork\AdClient\AdClientSDK\Managed\AdClientSDKManaged\AdClientSDKManagedTest\Utils\LoggerTest.cs" Line="2" Column="7" />
-      <File FileName="AdClientSDKManaged\ImageTextureAdInstance .cs" Line="1" Column="1" />
-      <File FileName="AdClientSDKManaged\ImageTextureAdUnit.cs" Line="1" Column="1" />
+      <File FileName="..\..\..\AdUnity\Assets\ChimeraVirtualAds\AdCreationScript.cs" Line="9" Column="34" />
+      <File FileName="e:\Chimera\workspace\AdNetwork\AdClient\AdClientSDK\Managed\AdClientSDKManaged\AdClientSDKManaged\ImageTextureAdUnit.cs" Line="19" Column="47" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
