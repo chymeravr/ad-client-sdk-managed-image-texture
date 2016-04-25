@@ -7,7 +7,7 @@ namespace AdClientSDKManagedTestConsole
 		public static void Main (string[] args)
 		{
 			Console.WriteLine ("Hello World!");
-            AdConfigurer.Startup(new PlatformPCWindowsImpl());
+            AdConfigurer.Startup(new PlatformImpl());
             PlatformVariableTest.Test1();
             /*AdListenerImplementation adListenerImplementation = new AdListenerImplementation();
 			ImageTextureAd adClient = new ImageTextureAd (adListenerImplementation, "asdfadfd");
@@ -23,7 +23,33 @@ namespace AdClientSDKManagedTestConsole
             Console.ReadLine();
 		}
 	}
+    public class PlatformImpl:IPlatform
+    {
+        public void Initialize()
+        {
 
+        }
+        public PlatformImpl()
+        {
+
+        }
+        public String GetOS()
+        {
+            return "windows";
+        }
+        public String GetDevice()
+        {
+            return "PC";
+        }
+        public String GetUserId()
+        {
+            return "adsfasfd";
+        }
+        public String GetLocation()
+        {
+            return "Bangalore";
+        }
+    }
     public class AdListenerImplementation : AdUnitListener
     {
         public void OnAdUnitLoadFailed(AdUnitFailedArgs args)

@@ -10,17 +10,12 @@
 using System;
 namespace co.chimeralabs.ads.managed.Models
 {
-	public class AppParams
+	public class ServerConfigedParams
 	{
-		public String appId { set; get; }
-        public String location { set; get; }
-        public String hmd { set; get; }
-        public String OS { set; get; }
-        public String device { set; get; }//mobile or pc or tablet etc
-        public String userId { set; get; }
-        public long startTime { set; get; }
-        public long endTime { set; get; }
-        public AppParams()
+        public String analyticsUrl;
+        public String imageTextureAdUnitUrl;
+
+        public ServerConfigedParams()
         {
 
         }

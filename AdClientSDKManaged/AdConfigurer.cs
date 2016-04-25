@@ -8,6 +8,8 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 using System;
+using System.Net;
+using Newtonsoft.Json;
 using co.chimeralabs.ads.managed.Models;
 using co.chimeralabs.analytics.managed;
 using co.chimeralabs.ads.managed.Utils;
@@ -16,10 +18,32 @@ namespace co.chimeralabs.ads.managed
 {
 	public static class AdConfigurer
 	{
+        private static String serverConfigUrl = "http://localhost:8080/adserver/clientappconfigparams";
         private static AppParams appParams = new AppParams();
+        private static ServerConfigedParams serverConfigedParams;
         private static IPlatform platform;
-        
+
+		public static void SetAppId(String appId){
+			appParams.appId = appId;
+		}
+
 		public static void Startup(IPlatform pf){
+            WebClient webClient = new WebClient();
+            try
+            {
+                String serverConfigString = webClient.DownloadString(serverConfigUrl);
+                serverConfigedParams = JsonConvert.DeserializeObject<ServerConfigedParams>(serverConfigString);
+                AnalyticsManager.ConfigureAnalyticsClient(serverConfigedParams.analyticsUrl);
+            }
+            catch (System.Net.WebException e)
+            {
+                Console.WriteLine("Exception caught: {0}", e);
+            }
+            catch (ArgumentNullException e)
+            {
+                Console.WriteLine("Exception caught: {0}", e);
+            }
+
             platform = pf;
             appParams.OS = platform.GetOS();
             appParams.device = platform.GetDevice();
@@ -28,7 +52,10 @@ namespace co.chimeralabs.ads.managed
             appParams.startTime = UtilityMethods.GetCurrentTimeStamp();
             AnalyticsManager.Push(appParams, AnalyticsManager.TYPE.APP_START, AnalyticsManager.PRIORITY.HIGH);
 		}
-
+        public static ServerConfigedParams GetServerConfigedParams()
+        {
+            return serverConfigedParams;
+        }
 		public static void Shutdown(){
             appParams.endTime = UtilityMethods.GetCurrentTimeStamp();
             AnalyticsManager.Push(appParams, AnalyticsManager.TYPE.APP_END, AnalyticsManager.PRIORITY.HIGH);

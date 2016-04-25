@@ -8,3 +8,5 @@ E:\Chimera\workspace\AdNetwork\AdClient\AdClientSDK\Managed\AdClientSDKManaged\A
 E:\Chimera\workspace\AdNetwork\AdClient\AdClientSDK\Managed\AdClientSDKManaged\AdClientSDKManagedTestConsole\bin\Debug\AdClientSDKManaged.pdb
 E:\Chimera\workspace\AdNetwork\AdClient\AdClientSDK\Managed\AdClientSDKManaged\AdClientSDKManagedTestConsole\bin\Debug\Newtonsoft.Json.pdb
 E:\Chimera\workspace\AdNetwork\AdClient\AdClientSDK\Managed\AdClientSDKManaged\AdClientSDKManagedTestConsole\bin\Debug\Newtonsoft.Json.xml
+E:\Chimera\workspace\AdNetwork\AdClient\AdClientSDK\Managed\AdClientSDKManaged\AdClientSDKManagedTestConsole\bin\Debug\AnalyticsSDKManaged.dll
+E:\Chimera\workspace\AdNetwork\AdClient\AdClientSDK\Managed\AdClientSDKManaged\AdClientSDKManagedTestConsole\bin\Debug\AnalyticsSDKManaged.pdb

@@ -15,11 +15,11 @@ namespace AdClientSDKManagedTestConsole
 	public class SystemInfoTest
 	{
         public static void TestHardwareInfo(){
-            Console.WriteLine("HardwareInfo.GetCPUName: " + HardwareInfo.GetCPUName());
-            Console.WriteLine("HardwareInfo.GetProcessorId: " + HardwareInfo.GetProcessorId());
-            Console.WriteLine("HardwareInfo.GetCPUManufacturer: " + HardwareInfo.GetCPUManufacturer());
-            Console.WriteLine("HardwareInfo.GetCPUCurrentClockSpeed: " + HardwareInfo.GetCPUCurrentClockSpeed());
-            Console.WriteLine("HardwareInfo.GetCPUSpeedInGHZ: " + HardwareInfo.GetCpuSpeedInGHz());
+            //Console.WriteLine("HardwareInfo.GetCPUName: " + HardwareInfo.GetCPUName());
+            //Console.WriteLine("HardwareInfo.GetProcessorId: " + HardwareInfo.GetProcessorId());
+            //Console.WriteLine("HardwareInfo.GetCPUManufacturer: " + HardwareInfo.GetCPUManufacturer());
+            //Console.WriteLine("HardwareInfo.GetCPUCurrentClockSpeed: " + HardwareInfo.GetCPUCurrentClockSpeed());
+            //Console.WriteLine("HardwareInfo.GetCPUSpeedInGHZ: " + HardwareInfo.GetCpuSpeedInGHz());
         }
 	}
 }

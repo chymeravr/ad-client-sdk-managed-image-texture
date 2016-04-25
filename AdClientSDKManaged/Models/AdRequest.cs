@@ -15,16 +15,25 @@ namespace co.chimeralabs.ads.managed.Models
 		public AdType adType{get; set;}
         public String adUnitId { get; set; }
         public int nDistinctAds { get; set; }
+        public String location { set; get; }
+        public String hmd { set; get; }
+        public String OS { set; get; }
+        public String device { set; get; }//mobile or pc or tablet etc
+
         public AdRequest()
         {
 
         }
 
-        public AdRequest(AdType adType, String adUnitId, int nDistinctAds)
+        public AdRequest(AdType adType, String adUnitId, int nDistinctAds, AppParams appParams)
         {
             this.adType = adType;
             this.adUnitId = adUnitId;
             this.nDistinctAds = nDistinctAds;
+            this.location = appParams.location;
+            this.hmd = appParams.hmd;
+            this.OS = appParams.OS;
+            this.device = appParams.device;
         }
 
 	}

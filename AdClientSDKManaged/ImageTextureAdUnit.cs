@@ -14,7 +14,7 @@ namespace co.chimeralabs.ads.managed
     public class ImageTextureAdUnit : InternalAdListener
     {
         //private String adRequestURIString = "http://chimeralabs.cloudapp.net/adserver/publisher/api/loadad";
-        private String adRequestURIString = "http://localhost:8080/adserver/publisher/api/loadad";
+        //private String adRequestURIString = "http://localhost:8080/adserver/publisher/api/loadad";
         private Uri adRequestURI;
         private AdUnitListener adUnitListener;
         private String adUnitId;
@@ -31,7 +31,7 @@ namespace co.chimeralabs.ads.managed
         {
             this.adUnitId = adUnitId;
             this.adUnitListener = adUnitListener;
-            adRequestURI = new Uri(adRequestURIString);
+            //adRequestURI = new Uri(adRequestURIString);
             adErrors = new List<AdErrorData>();
         }
         public String GetAdUnitId()
@@ -44,14 +44,14 @@ namespace co.chimeralabs.ads.managed
             Logger.Log(this, "LoadAd: Entered");
             this.nDistinctAds = nDistinctAds;
 
-            AdRequest adRequest = new AdRequest(AdType.IMAGE_TEXTURE, this.adUnitId, this.nDistinctAds);
+            AdRequest adRequest = new AdRequest(AdType.IMAGE_TEXTURE, this.adUnitId, this.nDistinctAds, AdConfigurer.GetAppParams());
 
             WebClient webClient = new WebClient();
             webClient.Headers.Add("Content-Type", "application/json");
             webClient.UploadStringCompleted += new UploadStringCompletedEventHandler(OnAdResponseReceived);
             try
             {
-                webClient.UploadStringAsync(adRequestURI, "POST", JsonConvert.SerializeObject(adRequest));
+                webClient.UploadStringAsync(new Uri(AdConfigurer.GetServerConfigedParams().imageTextureAdUnitUrl), "POST", JsonConvert.SerializeObject(adRequest));
             }
             catch (System.Net.WebException e)
             {
